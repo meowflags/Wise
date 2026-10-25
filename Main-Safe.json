@@ -1,0 +1,3278 @@
+{
+  "format": 1,
+  "client": "Wise",
+  "modules": {
+    "stasis": {
+      "enabled": false,
+      "values": {
+        "version": "Stasis B4",
+        "Stasis.bind": 0,
+        "Stasis V2.key": 0,
+        "Stasis V2.hypixelMode": true,
+        "Stasis V2.progressBar": true,
+        "Stasis V2.stasis-v2.theme": "Rise",
+        "Stasis V2.barTheme": "Bar",
+        "Stasis V2.barRoundness": 2.0,
+        "Stasis V2.bar-color": "#43E886",
+        "Stasis V2.barScale": 0.9,
+        "Stasis V2.breeze": true,
+        "Stasis.hidden": false,
+        "Stasis V2.hidden": false,
+        "Stasis B4.hold-bind": false
+      }
+    },
+    "animations": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "block": "Noov",
+        "swing": "Smooth",
+        "alwaysBlock": false,
+        "blockDelay": true,
+        "delayMs": 550,
+        "speed": 2.0,
+        "x": -0.05000000074505806,
+        "y": -0.25,
+        "z": 0.800000011920929,
+        "scale": 0.699999988079071,
+        "rotationTarget": "Blocked",
+        "tilt": 7.0,
+        "turn": 50.0,
+        "roll": -8.0,
+        "alwaysShow": true,
+        "hidden": true
+      }
+    },
+    "spotify": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "service": "Spotify",
+        "provider": "LRCLIB",
+        "lyrics": false,
+        "karaoke": false,
+        "fixedTitle": true,
+        "lyricLines": 1,
+        "karaokeSpeed": 1.25,
+        "refreshTicks": 10,
+        "spotify.scale": 0.85,
+        "hidden": true
+      }
+    },
+    "armor": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "hideHelmet": true,
+        "hideChestplate": true,
+        "hideLeggings": true,
+        "hideBoots": true,
+        "hideInventory": true,
+        "hudEnabled": true,
+        "hudHelmet": true,
+        "hudChestplate": true,
+        "hudLeggings": true,
+        "hudBoots": true,
+        "hudLayout": "Horizontal",
+        "protection": true,
+        "hidden": true
+      }
+    },
+    "chat-cleaner": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "kills": true,
+        "beds": true,
+        "lobby": true,
+        "shop": true,
+        "game": true,
+        "rewards": true,
+        "hidePadding": true,
+        "hoverOriginal": true,
+        "hidden": true,
+        "chat-cleaner.meow-filter": false,
+        "selectedFilter": "default"
+      }
+    },
+    "chat-capture": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hypixelOnly": true,
+        "includeActionBar": false,
+        "hidden": false
+      }
+    },
+    "notifier": {
+      "enabled": true,
+      "values": {
+        "version": "Meowtils",
+        "Wise.bind": 0,
+        "Wise.notifier.distance": 35.0,
+        "Wise.notifier.once": false,
+        "Wise.hidden": false,
+        "Meowtils.bind": 0,
+        "Meowtils.color.text-color": "#FFFFFF",
+        "Meowtils.scale": 0.65,
+        "Meowtils.frequency": 10.0,
+        "Meowtils.distance": 35.0,
+        "Meowtils.sound": true,
+        "Meowtils.hud": false,
+        "Meowtils.hud.0.x": 1,
+        "Meowtils.hud.0.y": 1,
+        "Meowtils.hidden": false
+      }
+    },
+    "hotbar": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "hotbar.xp": true,
+        "hidden": true
+      }
+    },
+    "glint": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "glint.min": 125.0,
+        "glint.max": 84.0,
+        "glint.layers": 3.0,
+        "glint.speed": 0.4,
+        "glint.hand-only": true,
+        "glint.swords": true,
+        "glint.potions": true,
+        "glint.sticks": false,
+        "glint.bows": false,
+        "hidden": false
+      }
+    },
+    "kill-effect": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "bedRainbow": true,
+        "rainbowSize": 2.1,
+        "rainbowThickness": 8.0,
+        "particleCount": 14.0,
+        "killRainbow": false,
+        "killRainbowSize": 1.0,
+        "killRainbowThickness": 3.0,
+        "killExplosion": true,
+        "explosionParticles": 22.0,
+        "explosionSize": 0.8,
+        "kill-effect.lightning": false,
+        "kill-effect.blood": true,
+        "kill-effect.explosion": false,
+        "jumpCircles": false,
+        "jumpHexInput": "#FFFFFF",
+        "jumpRadius": 1.0,
+        "jumpWidth": 4.1,
+        "jumpStrength": 0.04,
+        "chinaHat": true,
+        "chinaOnlyThirdPerson": true,
+        "chinaRainbow": false,
+        "chinaHexInput": "#000000",
+        "chinaHeight": 0.3,
+        "chinaRadius": 0.6,
+        "chinaYPosition": -0.05,
+        "chinaRotationSpeed": 2.0,
+        "chinaAlpha": 86.0,
+        "hidden": true
+      }
+    },
+    "interface": {
+      "enabled": true,
+      "values": {
+        "version": "Wise",
+        "Wise.bind": 0,
+        "Wise.interface.mode": "Modern",
+        "Wise.interface.shaders": false,
+        "Wise.interface.notifications": true,
+        "Wise.interface.blur-radius": 12.0,
+        "Wise.interface.blur-compression": 3.0,
+        "Wise.interface.bloom-radius": 14.0,
+        "Wise.interface.bloom-compression": 2.0,
+        "Wise.interface.alpha": 110.0,
+        "Wise.interface.rounding": 5.0,
+        "Wise.interface.information": "Rise",
+        "Wise.interface.suffix": true,
+        "Wise.interface.lowercase": false,
+        "Wise.interface.spaces": false,
+        "Wise.interface.modules": "All",
+        "Wise.interface.arraylist": true,
+        "Wise.interface.sidebar": true,
+        "Wise.interface.list-colors": "Fade",
+        "Wise.interface.list-font": "Apple UI",
+        "Wise.interface.custom-font": "Arial",
+        "Wise.interface.shader-effect": "Shadow",
+        "Wise.interface.list-background": "Normal",
+        "Wise.interface.shadow": true,
+        "Wise.interface.kill-particles": true,
+        "Wise.interface.alignment": "Right",
+        "Wise.interface.classic-sidebar": false,
+        "Wise.interface.classic-background": false,
+        "Wise.interface.creida-font": true,
+        "gui.scale": 0.9,
+        "Interface Slinky.bind": 0,
+        "Interface Slinky.hold-bind": false,
+        "Interface Slinky.setting.show_combat": true,
+        "Interface Slinky.setting.show_move": true,
+        "Interface Slinky.setting.show_block": true,
+        "Interface Slinky.setting.show_visual": true,
+        "Interface Slinky.setting.show_utility": true,
+        "Interface Slinky.setting.text_size": 16.0,
+        "Interface Slinky.setting.padding_x": 3.0,
+        "Interface Slinky.setting.padding_y": 1.0,
+        "Interface Slinky.setting.bg_rounding": 6.0,
+        "Interface Slinky.setting.name_color": "{\"r\":0.953000009059906,\"g\":0.36500000953674316,\"b\":0.07100000232458115}",
+        "Interface Slinky.setting.details_color": "{\"r\":0.6000000238418579,\"g\":0.6000000238418579,\"b\":0.6000000238418579}",
+        "Interface Slinky.setting.lowercase": true,
+        "Interface Slinky.setting.show_details": true,
+        "Interface Slinky.setting.require_bound": false,
+        "Wise.hidden": false,
+        "Interface Slinky.hidden": false
+      }
+    },
+    "chat-bypass": {
+      "enabled": false,
+      "values": {
+        "version": "Wise",
+        "Wise.bind": 0,
+        "Wise.hidden": false
+      }
+    },
+    "auto-play": {
+      "enabled": true,
+      "values": {
+        "version": "Auto Play B4",
+        "Wise.bind": 0,
+        "Wise.hidden": false
+      }
+    },
+    "cheat-detector": {
+      "enabled": true,
+      "values": {
+        "version": "Combined",
+        "Wise.bind": 0,
+        "Wise.detector.alert": "ClientSide",
+        "Wise.detector.speed": true,
+        "Wise.detector.flight": true,
+        "Wise.detector.block-a": true,
+        "Wise.detector.block-b": true,
+        "Wise.detector.velocity": true,
+        "Wise.detector.tower": true,
+        "Wise.hidden": false,
+        "Meowtils.bind": 0,
+        "Meowtils.violationLevel": 1.0,
+        "Meowtils.flagSound": true,
+        "Meowtils.wdrButton": true,
+        "Meowtils.autoBlock": true,
+        "Meowtils.noSlow": true,
+        "Meowtils.killaura": true,
+        "Meowtils.legitScaffold": false,
+        "Meowtils.meow.anticheat.blacklist": false,
+        "Meowtils.blacklist.showNotifications": true,
+        "Meowtils.blacklist.forFlags": true,
+        "Meowtils.blacklist.flagAutoblock": true,
+        "Meowtils.blacklist.flagNoslow": true,
+        "Meowtils.blacklist.flagKillaura": true,
+        "Meowtils.blacklist.flagLegitScaffold": true,
+        "Meowtils.blacklist.forReports": true,
+        "Meowtils.blacklist.whenReportCommand": true,
+        "Meowtils.blacklist.whenWdrCommand": true,
+        "Combined.bind": 0,
+        "Combined.detector.combined.interval": 10.0,
+        "Combined.detector.combined.wise.speed": true,
+        "Combined.detector.combined.wise.flight": false,
+        "Combined.detector.combined.wise.block-a": true,
+        "Combined.detector.combined.wise.block-b": true,
+        "Combined.detector.combined.wise.velocity": true,
+        "Combined.detector.combined.wise.tower": true,
+        "Combined.detector.combined.b4.AutoBlock": true,
+        "Combined.detector.combined.b4.LegitScaffold": true,
+        "Combined.detector.combined.b4.NoSlow": true,
+        "Combined.detector.combined.b4.Nuker": true,
+        "Combined.detector.combined.b4.Scaffold": true,
+        "Combined.detector.combined.b4.AimAssist": true,
+        "Combined.detector.combined.b4.AutoClicker": true,
+        "Combined.detector.combined.b4.Blink": true,
+        "Combined.detector.combined.b4.FastMine": true,
+        "Combined.detector.combined.b4.NoFall": true,
+        "Combined.detector.combined.b4.Protocol": true,
+        "Combined.detector.combined.meow.autoBlock": true,
+        "Combined.detector.combined.meow.noSlow": true,
+        "Combined.detector.combined.meow.killaura": true,
+        "Combined.detector.combined.meow.legitScaffold": true,
+        "Meowtils.hidden": false,
+        "Combined.hidden": false
+      }
+    },
+    "watermark": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "watermark.name": "Wise",
+        "watermark.coordinates": false,
+        "watermark.user": true,
+        "watermark.version": false,
+        "watermark.fps": false,
+        "watermark.time": false,
+        "watermark.ping": false,
+        "hidden": true
+      }
+    },
+    "autism": {
+      "enabled": true,
+      "values": {
+        "hidden": true
+      }
+    },
+    "held-view": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "held-view.hotbar": true,
+        "hidden": true
+      }
+    },
+    "b4.combat.autoblock": {
+      "enabled": true,
+      "values": {
+        "version": "AutoBlock Slinky",
+        "AutoBlock Slinky.bind": 0,
+        "AutoBlock Slinky.hold-bind": false,
+        "AutoBlock Slinky.setting.range": 4.213845252990723,
+        "AutoBlock Slinky.setting.max_hurt_time": 5.897258758544922,
+        "AutoBlock Slinky.setting.max_hold_time": 1.0,
+        "AutoBlock Slinky.setting.fake_block_animation": true,
+        "AutoBlock Slinky.setting.fake_block_animation_require_target": true,
+        "AutoBlock Slinky.setting.lag_chance": 1.0,
+        "AutoBlock Slinky.setting.lag_duration": 1.0,
+        "AutoBlock Slinky.setting.lag_flush_attack": true,
+        "AutoBlock Slinky.setting.lag_reblock": true,
+        "AutoBlock Slinky.setting.require_left_mouse_pressed": true,
+        "AutoBlock Slinky.setting.require_right_mouse_pressed": true,
+        "AutoBlock Slinky.setting.require_damage": false,
+        "AutoBlock B4.hold-bind": false,
+        "AutoBlock Slinky.hidden": false
+      }
+    },
+    "b4.combat.autoclicker": {
+      "enabled": true,
+      "values": {
+        "version": "AutoClicker Slinky",
+        "AutoClicker Slinky.bind": 0,
+        "AutoClicker Slinky.hold-bind": false,
+        "AutoClicker Slinky.setting.pattern": "Jitter",
+        "AutoClicker Slinky.setting.target_cps": 20.0,
+        "AutoClicker Slinky.setting.randomize_cps": false,
+        "AutoClicker Slinky.setting.exhaust": false,
+        "AutoClicker Slinky.setting.allow_block_break": true,
+        "AutoClicker Slinky.setting.allow_inventory": true,
+        "AutoClicker Slinky.setting.inventory_randomize": true,
+        "AutoClicker Slinky.setting.require_weapon": true,
+        "AutoClicker Slinky.setting.require_not_using_item": true,
+        "AutoClicker B4.hold-bind": false,
+        "AutoClicker Slinky.hidden": false
+      }
+    },
+    "b4.combat.aimassist": {
+      "enabled": true,
+      "values": {
+        "version": "AimAssist Slinky",
+        "AimAssist Slinky.bind": 0,
+        "AimAssist Slinky.hold-bind": false,
+        "AimAssist Slinky.setting.mode": "Silent",
+        "AimAssist Slinky.setting.lock_on_vertical": false,
+        "AimAssist Slinky.setting.silent_move_correct": true,
+        "AimAssist Slinky.setting.silent_ignore_manual_aim": true,
+        "AimAssist Slinky.setting.hor_speed": 30.0,
+        "AimAssist Slinky.setting.ver_speed": 30.0,
+        "AimAssist Slinky.setting.predict": 0.0,
+        "AimAssist Slinky.setting.aim_randomization": 0.0,
+        "AimAssist Slinky.setting.hor_hitbox_correct": 1.0,
+        "AimAssist Slinky.setting.ver_hitbox_correct": 1.0,
+        "AimAssist Slinky.setting.mode_target": "Switch",
+        "AimAssist Slinky.setting.sort_by": "Hurt time",
+        "AimAssist Slinky.setting.allow_exceed_fov": true,
+        "AimAssist Slinky.setting.range": "{\"min\":0.0,\"max\":3.0}",
+        "AimAssist Slinky.setting.fov": "{\"min\":0.0,\"max\":180.0}",
+        "AimAssist Slinky.setting.require_sprint": false,
+        "AimAssist Slinky.setting.require_mouse_pressed": false,
+        "AimAssist Slinky.setting.require_mouse_moved": false,
+        "AimAssist Slinky.setting.disable_on_block_break": true,
+        "AimAssist Slinky.setting.require_weapon": true,
+        "AimAssist Slinky.setting.ignore_invis": false,
+        "AimAssist Slinky.setting.require_line_of_sight": true,
+        "AimAssist B4.hold-bind": false,
+        "AimAssist Slinky.hidden": false
+      }
+    },
+    "b4.network.backtrack": {
+      "enabled": false,
+      "values": {
+        "version": "Backtrack B4",
+        "Backtrack Slinky.bind": 0,
+        "Backtrack Slinky.hold-bind": false,
+        "Backtrack Slinky.setting.target_dist": "{\"min\":2.0,\"max\":5.0}",
+        "Backtrack Slinky.setting.delay": 100.0,
+        "Backtrack Slinky.setting.max_hurt_time": 10.0,
+        "Backtrack Slinky.setting.cooldown": 5.0,
+        "Backtrack Slinky.setting.disable_on_hit": false,
+        "Backtrack Slinky.setting.render_remote_pos": false,
+        "Backtrack Slinky.setting.indicator_color": "{\"r\":0.9900000095367432,\"g\":0.9900000095367432,\"b\":0.9900000095367432}",
+        "Backtrack Slinky.setting.indicator_line_width": 1.0,
+        "Backtrack Slinky.setting.indicator_filled": true,
+        "Backtrack Slinky.setting.indicator_rotate": true,
+        "Backtrack Slinky.setting.require_mouse_pressed": false,
+        "Backtrack Slinky.setting.require_weapon": false,
+        "Backtrack Slinky.hidden": false
+      }
+    },
+    "b4.combat.clickassist": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.combat.displace": {
+      "enabled": false,
+      "values": {
+        "version": "Displace B4",
+        "Displace B4.displace.indicator": true,
+        "Displace B4.displace.auto-stick": true,
+        "Displace B4.displace.debug": false,
+        "Displace Slinky.bind": 0,
+        "Displace Slinky.hold-bind": false,
+        "Displace Slinky.setting.direction": "Left",
+        "Displace Slinky.setting.use_last_strafe": false,
+        "Displace Slinky.setting.angle": 90.0,
+        "Displace Slinky.setting.cooldown": 5.0,
+        "Displace Slinky.setting.hide_rotation": false,
+        "Displace Slinky.setting.require_no_kb": false,
+        "Displace Slinky.setting.require_weapon": false,
+        "Displace Slinky.setting.require_kb_enchant": false,
+        "Displace Slinky.setting.require_facing_away": false,
+        "Displace B4.hold-bind": false,
+        "Displace Slinky.hidden": false,
+        "Displace B4.marker-style": "Classic"
+      }
+    },
+    "b4.combat.hitbox": {
+      "enabled": false,
+      "values": {
+        "version": "Hitbox B4",
+        "Hitbox Slinky.bind": 0,
+        "Hitbox Slinky.hold-bind": false,
+        "Hitbox Slinky.setting.expand": 0.10000000149011612,
+        "Hitbox Slinky.hidden": false
+      }
+    },
+    "b4.combat.hit-select": {
+      "enabled": false,
+      "values": {
+        "version": "Hit Select Slinky",
+        "Hit Select Slinky.bind": 0,
+        "Hit Select Slinky.hold-bind": false,
+        "Hit Select Slinky.setting.mode": "Burst",
+        "Hit Select Slinky.setting.cancel_rate": 0.800000011920929,
+        "Hit Select Slinky.setting.cancel_rate_air": 0.4000000059604645,
+        "Hit Select Slinky.setting.pause_dur": 10.0,
+        "Hit Select Slinky.setting.wait_for_damage_dur": 0.0,
+        "Hit Select Slinky.setting.trades_delay": 0.0,
+        "Hit Select Slinky.setting.use_server_time": false,
+        "Hit Select Slinky.setting.fake_swing": false,
+        "Hit Select Slinky.setting.crits_allow_reduce": true,
+        "Hit Select Slinky.setting.require_damage": true,
+        "Hit Select Slinky.setting.require_sprint": false,
+        "Hit Select Slinky.setting.require_weapon": false,
+        "Hit Select B4.hold-bind": false,
+        "Hit Select Slinky.hidden": false
+      }
+    },
+    "b4.combat.jump-reset": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.combat.killaura": {
+      "enabled": false,
+      "values": {
+        "hold-bind": false
+      }
+    },
+    "b4.combat.reach": {
+      "enabled": false,
+      "values": {
+        "version": "Reach B4",
+        "Reach Slinky.bind": 0,
+        "Reach Slinky.hold-bind": false,
+        "Reach Slinky.setting.distance": 3.049999952316284,
+        "Reach Slinky.setting.activate_time": 3.0,
+        "Reach Slinky.setting.require_sprint": false,
+        "Reach B4.hold-bind": false,
+        "Reach Slinky.hidden": false
+      }
+    },
+    "b4.combat.velocity": {
+      "enabled": false,
+      "values": {
+        "version": "Velocity Slinky",
+        "Velocity Slinky.bind": 0,
+        "Velocity Slinky.hold-bind": false,
+        "Velocity Slinky.setting.mode": "Regular",
+        "Velocity Slinky.setting.reduce_chance": 100.0,
+        "Velocity Slinky.setting.fov": 3.1415927410125732,
+        "Velocity Slinky.setting.reduce_amount": 1.0,
+        "Velocity Slinky.setting.reduce_delay": 0.0,
+        "Velocity Slinky.setting.jump_chance": 100.0,
+        "Velocity Slinky.setting.reduce_multiple_per_tick": false,
+        "Velocity Slinky.setting.ignore_vertical": "Never",
+        "Velocity Slinky.setting.ignore_chance": 100.0,
+        "Velocity Slinky.setting.require_target": false,
+        "Velocity Slinky.setting.require_mouse": false,
+        "Velocity Slinky.setting.require_forward": false,
+        "Velocity Slinky.setting.require_weapon": false,
+        "Velocity Slinky.setting.require_sprinting_jump": true,
+        "Velocity Slinky.hidden": false
+      }
+    },
+    "b4.combat.wtap": {
+      "enabled": false,
+      "values": {
+        "version": "WTap Slinky",
+        "WTap Slinky.bind": 0,
+        "WTap Slinky.hold-bind": false,
+        "WTap Slinky.setting.mode": "WTap",
+        "WTap Slinky.setting.delay": 4.0,
+        "WTap Slinky.setting.duration": 2.0,
+        "WTap Slinky.setting.randomize": true,
+        "WTap Slinky.setting.wait_for_damage": false,
+        "WTap Slinky.setting.require_weapon": false,
+        "WTap B4.hold-bind": false,
+        "WTap Slinky.hidden": false
+      }
+    },
+    "b4.movement.invmove": {
+      "enabled": false,
+      "values": {
+        "version": "InvMove Slinky",
+        "InvMove Slinky.bind": 0,
+        "InvMove Slinky.hold-bind": false,
+        "InvMove Slinky.setting.mode": "Vanilla",
+        "InvMove Slinky.setting.stop_on_click": "Full",
+        "InvMove Slinky.setting.stop_duration": 2.0,
+        "InvMove Slinky.setting.stop_non_inv": "Full",
+        "InvMove Slinky.hidden": false
+      }
+    },
+    "b4.movement.keepsprint": {
+      "enabled": false,
+      "values": {
+        "version": "KeepSprint B4",
+        "KeepSprint Slinky.bind": 0,
+        "KeepSprint Slinky.hold-bind": false,
+        "KeepSprint Slinky.setting.chance": 1.0,
+        "KeepSprint Slinky.setting.motion_mult": 1.0,
+        "KeepSprint Slinky.setting.allow_reduce": true,
+        "KeepSprint Slinky.setting.require_on_ground": false,
+        "KeepSprint Slinky.hidden": false
+      }
+    },
+    "b4.movement.noslow": {
+      "enabled": false,
+      "values": {
+        "version": "NoSlow B4",
+        "NoSlow Slinky.bind": 0,
+        "NoSlow Slinky.hold-bind": false,
+        "NoSlow Slinky.setting.mult_sword": 1.0,
+        "NoSlow Slinky.setting.mult_bow": 1.0,
+        "NoSlow Slinky.setting.mult_consumables": 1.0,
+        "NoSlow Slinky.hidden": false
+      }
+    },
+    "b4.movement.sprint": {
+      "enabled": true,
+      "values": {
+        "version": "Sprint Slinky",
+        "Sprint Slinky.bind": 0,
+        "Sprint Slinky.hold-bind": false,
+        "Sprint Slinky.setting.while_using_item": false,
+        "Sprint Slinky.setting.while_backwards": false,
+        "Sprint Slinky.setting.while_sideways": false,
+        "Sprint Slinky.setting.while_in_gui": false,
+        "Sprint Slinky.hidden": true
+      }
+    },
+    "b4.movement.stop-motion": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.movement.timer": {
+      "enabled": false,
+      "values": {
+        "version": "Timer B4",
+        "Timer Slinky.bind": 0,
+        "Timer Slinky.hold-bind": false,
+        "Timer Slinky.setting.speed": 1.0,
+        "Timer Slinky.setting.require_mouse": false,
+        "Timer Slinky.setting.require_damage": false,
+        "Timer Slinky.setting.require_falling": false,
+        "Timer Slinky.hidden": false
+      }
+    },
+    "b4.player.antiafk": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.antifireball": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.autoblockin": {
+      "enabled": false,
+      "values": {
+        "version": "AutoBlockin Slinky",
+        "AutoBlockin Slinky.bind": -98,
+        "AutoBlockin Slinky.hold-bind": true,
+        "AutoBlockin Slinky.setting.speed": 0.5,
+        "AutoBlockin Slinky.setting.require_ground": false,
+        "AutoBlockin B4.hold-bind": false,
+        "AutoBlockin Slinky.hidden": false,
+        "AutoBlockin Slinky.slinky.blockin.progress": true
+      }
+    },
+    "b4.player.autoladder": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.autoplace": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.autoswap": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.autotool": {
+      "enabled": true,
+      "values": {
+        "version": "AutoTool Slinky",
+        "AutoTool Slinky.bind": 0,
+        "AutoTool Slinky.hold-bind": false,
+        "AutoTool Slinky.setting.activation_time": 3.0,
+        "AutoTool Slinky.setting.switch_back": true,
+        "AutoTool Slinky.setting.allow_using_sword": true,
+        "AutoTool Slinky.setting.allow_using_tools": true,
+        "AutoTool Slinky.setting.allow_using_fists": true,
+        "AutoTool Slinky.setting.allow_using_other": true,
+        "AutoTool Slinky.setting.require_sneak": false,
+        "AutoTool Slinky.setting.restrict_allowed_blocks": false,
+        "AutoTool Slinky.setting.allowed_blocks": "[]",
+        "AutoTool Slinky.hidden": true
+      }
+    },
+    "b4.player.bedaura": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.delay-remover": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.player.fastmine": {
+      "enabled": true,
+      "values": {
+        "version": "FastMine Slinky",
+        "FastMine Slinky.bind": 0,
+        "FastMine Slinky.hold-bind": false,
+        "FastMine Slinky.setting.speed": 1.2400000095367432,
+        "FastMine Slinky.setting.break_delay": 2.0,
+        "FastMine Slinky.setting.decr_block_hit_delay": false,
+        "FastMine Slinky.hidden": true
+      }
+    },
+    "b4.player.fastplace": {
+      "enabled": true,
+      "values": {
+        "version": "FastPlace B4",
+        "FastPlace Slinky.bind": 0,
+        "FastPlace Slinky.hold-bind": false,
+        "FastPlace Slinky.setting.max_cps": 20.0,
+        "FastPlace Slinky.setting.activate_delay": 0.0,
+        "FastPlace B4.hold-bind": false,
+        "FastPlace Slinky.hidden": false
+      }
+    },
+    "b4.player.freecam": {
+      "enabled": false,
+      "values": {
+        "hold-bind": false
+      }
+    },
+    "b4.player.ghosthand": {
+      "enabled": false,
+      "values": {
+        "version": "GhostHand B4",
+        "GhostHand Slinky.bind": 0,
+        "GhostHand Slinky.hold-bind": false,
+        "GhostHand Slinky.setting.non_players": true,
+        "GhostHand Slinky.setting.friendlies": true,
+        "GhostHand Slinky.setting.bots": true,
+        "GhostHand Slinky.setting.enemies": true,
+        "GhostHand Slinky.setting.allow_using_sword": true,
+        "GhostHand Slinky.setting.allow_using_tools": true,
+        "GhostHand Slinky.setting.allow_using_fists": true,
+        "GhostHand Slinky.setting.allow_using_buckets": true,
+        "GhostHand Slinky.setting.allow_using_fns": true,
+        "GhostHand Slinky.setting.allow_using_cobweb": true,
+        "GhostHand Slinky.setting.allow_using_other": true,
+        "GhostHand Slinky.setting.require_mouse_pressed": false,
+        "GhostHand B4.hold-bind": false,
+        "GhostHand Slinky.hidden": false
+      }
+    },
+    "b4.player.invmanager": {
+      "enabled": true,
+      "values": {
+        "version": "Bedwars Slinky",
+        "InvManager Slinky.bind": 0,
+        "InvManager Slinky.hold-bind": false,
+        "InvManager Slinky.setting.delay_after_open": 0.333333283662796,
+        "InvManager Slinky.setting.speed": 3.4683334827423096,
+        "InvManager Slinky.setting.smart_speed": true,
+        "InvManager Slinky.setting.randomize": true,
+        "InvManager Slinky.setting.equip_armor": false,
+        "InvManager Slinky.setting.sort_hotbar": true,
+        "InvManager Slinky.setting.sort_hotbar_fallback": true,
+        "InvManager Slinky.setting.1": "None",
+        "InvManager Slinky.setting.2": "None",
+        "InvManager Slinky.setting.3": "None",
+        "InvManager Slinky.setting.4": "None",
+        "InvManager Slinky.setting.5": "None",
+        "InvManager Slinky.setting.6": "None",
+        "InvManager Slinky.setting.7": "None",
+        "InvManager Slinky.setting.8": "None",
+        "InvManager Slinky.setting.9": "None",
+        "Bedwars Slinky.priority.0": "22",
+        "Bedwars Slinky.priority.1": "26",
+        "Bedwars Slinky.priority.2": "9,20,26,23",
+        "Bedwars Slinky.priority.3": "6,20,12",
+        "Bedwars Slinky.priority.4": "5,20,11,26",
+        "Bedwars Slinky.priority.5": "19,17",
+        "Bedwars Slinky.priority.6": "15",
+        "Bedwars Slinky.priority.7": "1",
+        "Bedwars Slinky.priority.8": "14",
+        "Bedwars Slinky.inventory.keep-best-sword": true,
+        "Bedwars Slinky.inventory.defense-leftovers": true,
+        "Bedwars Slinky.inventory.clean-delay": 2.0,
+        "InvManager Slinky.hidden": false,
+        "Bedwars Slinky.hidden": false
+      }
+    },
+    "b4.player.safewalk": {
+      "enabled": true,
+      "values": {
+        "version": "SafeWalk B4",
+        "SafeWalk Slinky.bind": 0,
+        "SafeWalk Slinky.hold-bind": false,
+        "SafeWalk Slinky.setting.motion_multiplier": 1.0,
+        "SafeWalk Slinky.setting.require_holding_blocks": false,
+        "SafeWalk Slinky.setting.require_looking_down": false,
+        "SafeWalk Slinky.setting.require_not_forward": false,
+        "Bridge Assist Slinky.bind": 0,
+        "Bridge Assist Slinky.hold-bind": false,
+        "Bridge Assist Slinky.setting.edge_offset": 0.20000000298023224,
+        "Bridge Assist Slinky.setting.unsneak_delay": 1.0,
+        "Bridge Assist Slinky.setting.select_blocks": "On depletion",
+        "Bridge Assist Slinky.setting.randomize": true,
+        "Bridge Assist Slinky.setting.sneak_on_jump": false,
+        "Bridge Assist Slinky.setting.avoid_double_sneak": true,
+        "Bridge Assist Slinky.setting.require_sneak": true,
+        "Bridge Assist Slinky.setting.require_holding_blocks": true,
+        "Bridge Assist Slinky.setting.require_looking_down": true,
+        "Bridge Assist Slinky.setting.require_not_forward": false,
+        "SafeWalk B4.hold-bind": false,
+        "SafeWalk Slinky.hidden": false,
+        "Bridge Assist Slinky.hidden": false
+      }
+    },
+    "b4.player.scaffold": {
+      "enabled": false,
+      "values": {
+        "hold-bind": false
+      }
+    },
+    "b4.player.water-bucket": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.world.antibot": {
+      "enabled": true,
+      "values": {
+        "version": "Combined",
+        "AntiBot Slinky.bind": 0,
+        "AntiBot Slinky.hold-bind": false,
+        "AntiBot Slinky.setting.invalid_uuid": "Stationary only",
+        "AntiBot Slinky.setting.invalid_username": true,
+        "AntiBot Slinky.setting.always_invis": true,
+        "AntiBot Slinky.setting.always_stationary": true,
+        "AntiBot Slinky.setting.sleeping": true,
+        "AntiBot Slinky.setting.min_age": 0.0,
+        "AntiBot Slinky.hidden": false,
+        "Combined.hidden": true
+      }
+    },
+    "b4.world.weather": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.render.antidebuff": {
+      "enabled": true,
+      "values": {
+        "version": "AntiDebuff Slinky",
+        "AntiDebuff Slinky.bind": 0,
+        "AntiDebuff Slinky.hold-bind": false,
+        "AntiDebuff Slinky.setting.blindness": true,
+        "AntiDebuff Slinky.setting.nausea": true,
+        "AntiDebuff Slinky.hidden": true
+      }
+    },
+    "b4.render.antishuffle": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.render.bedesp": {
+      "enabled": true,
+      "values": {
+        "bed.color": "#FF0000",
+        "bedesp.opacity": 100.0
+      }
+    },
+    "b4.render.breakprogress": {
+      "enabled": true,
+      "values": {
+        "version": "Meowtils",
+        "Meowtils.bind": 0,
+        "Meowtils.mode": "Percentage",
+        "Meowtils.color.text-color": "#FFFFFF",
+        "Meowtils.opacity": 100.0,
+        "Meowtils.scale": 0.7,
+        "Meowtils.dynamicColor": false,
+        "Meowtils.hidden": true
+      }
+    },
+    "b4.render.chams": {
+      "enabled": false,
+      "values": {
+        "version": "Chams B4",
+        "Chams Slinky.bind": 0,
+        "Chams Slinky.hold-bind": false,
+        "Chams Slinky.setting.hide_friendlies": false,
+        "Chams Slinky.hidden": false
+      }
+    },
+    "b4.render.chestesp": {
+      "enabled": true,
+      "values": {
+        "version": "ChestESP Slinky",
+        "ChestESP Slinky.bind": 0,
+        "ChestESP Slinky.hold-bind": false,
+        "ChestESP Slinky.setting.range": 50.0,
+        "ChestESP Slinky.setting.render_chest": false,
+        "ChestESP Slinky.setting.render_ender_chest": true,
+        "ChestESP Slinky.setting.render_trapped_chest": false,
+        "ChestESP Slinky.setting.render_beacon": true,
+        "ChestESP Slinky.setting.line_width": 1.0,
+        "ChestESP Slinky.setting.color_chest": "{\"r\":1.0,\"g\":1.0,\"b\":0.0}",
+        "ChestESP Slinky.setting.color_ender_chest": "{\"r\":1.0,\"g\":0.0,\"b\":1.0}",
+        "ChestESP Slinky.setting.color_trapped_chest": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
+        "ChestESP Slinky.setting.color_beacon": "{\"r\":0.0,\"g\":1.0,\"b\":1.0}",
+        "ChestESP Slinky.setting.filled": true,
+        "ChestESP Slinky.hidden": true
+      }
+    },
+    "b4.render.indicators": {
+      "enabled": true,
+      "values": {
+        "version": "Indicators B4",
+        "Indicators Slinky.bind": 0,
+        "Indicators Slinky.hold-bind": false,
+        "Indicators Slinky.setting.scale": 2.0,
+        "Indicators Slinky.setting.radius": 90.0,
+        "Indicators Slinky.setting.show_arrow": true,
+        "Indicators Slinky.setting.show_fireball": true,
+        "Indicators Slinky.setting.show_pearl": true,
+        "Indicators Slinky.setting.require_coming_closer": false,
+        "Indicators Slinky.hidden": false,
+        "Meowtils.bind": 0,
+        "Meowtils.alertType": "Always",
+        "Meowtils.directionCheck": false,
+        "Meowtils.filterOwnProjectiles": true,
+        "Meowtils.color.uncommon-projectile-color": "#FF0000",
+        "Meowtils.showArrows": true,
+        "Meowtils.showPearls": true,
+        "Meowtils.showPotions": true,
+        "Meowtils.showEggs": true,
+        "Meowtils.showSnowballs": true,
+        "Meowtils.showFireballs": true,
+        "Meowtils.radiusScale": 0.15,
+        "Meowtils.arrowThickness": 1.75,
+        "Meowtils.showDistance": true,
+        "Indicators B4.marker-style": "Classic",
+        "Indicators Slinky.marker-style": "Crystal",
+        "Meowtils.marker-style": "Classic",
+        "Meowtils.hidden": false
+      }
+    },
+    "b4.render.itemesp": {
+      "enabled": true,
+      "values": {
+        "version": "ItemESP B4",
+        "ItemESP Slinky.bind": 0,
+        "ItemESP Slinky.hold-bind": false,
+        "ItemESP Slinky.setting.range": 50.0,
+        "ItemESP Slinky.setting.show_count": false,
+        "ItemESP Slinky.setting.allowed_items": "[{\"name\":\"diamond\",\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0}}]",
+        "ItemESP Slinky.setting.highlight_all": false,
+        "ItemESP Slinky.setting.default_color": "{\"r\":1.0,\"g\":1.0,\"b\":1.0}",
+        "ItemESP Slinky.hidden": false
+      }
+    },
+    "b4.render.nametags": {
+      "enabled": true,
+      "values": {
+        "version": "Nametags B4",
+        "Nametags Slinky.bind": 0,
+        "Nametags Slinky.hold-bind": false,
+        "Nametags Slinky.setting.range": 150.0,
+        "Nametags Slinky.setting.scale": 2.0,
+        "Nametags Slinky.setting.show_own_name_tag": false,
+        "Nametags Slinky.setting.use_display_name": true,
+        "Nametags Slinky.setting.distance_scaling": false,
+        "Nametags Slinky.setting.background": true,
+        "Nametags Slinky.setting.text_shadow": false,
+        "Nametags Slinky.setting.show_health": false,
+        "Nametags Slinky.setting.health_fmt": "HP (0-20)",
+        "Nametags Slinky.setting.show_distance": false,
+        "Nametags Slinky.setting.show_equipment": false,
+        "Nametags Slinky.setting.show_enchants": false,
+        "Nametags Slinky.hidden": false
+      }
+    },
+    "b4.render.nocameraclip": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.render.nohurtcam": {
+      "enabled": true,
+      "values": {
+        "version": "NoHurtCam Slinky",
+        "NoHurtCam Slinky.bind": 0,
+        "NoHurtCam Slinky.hold-bind": false,
+        "NoHurtCam Slinky.hidden": true
+      }
+    },
+    "b4.render.playeresp": {
+      "enabled": true,
+      "values": {
+        "version": "PlayerESP Slinky",
+        "PlayerESP Slinky.bind": 0,
+        "PlayerESP Slinky.hold-bind": false,
+        "PlayerESP Slinky.setting.mode": "3D",
+        "PlayerESP Slinky.setting.range": 150.0,
+        "PlayerESP Slinky.setting.hide_friendlies": false,
+        "PlayerESP Slinky.setting.color_mode": "Automatic",
+        "PlayerESP Slinky.setting.color_enemies": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
+        "PlayerESP Slinky.setting.color_friendlies": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
+        "PlayerESP Slinky.setting.override_target_color": false,
+        "PlayerESP Slinky.setting.color_target": "{\"r\":1.0,\"g\":1.0,\"b\":0.0}",
+        "PlayerESP Slinky.setting.line_width": 1.0,
+        "PlayerESP Slinky.setting.hurt_effect": false,
+        "PlayerESP Slinky.setting.filled": true,
+        "PlayerESP Slinky.setting.show_2d_box": true,
+        "PlayerESP Slinky.setting.show_health_bar": true,
+        "PlayerESP Slinky.hidden": true
+      }
+    },
+    "b4.render.targethud": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.render.trajectories": {
+      "enabled": true,
+      "values": {
+        "version": "Trajectories B4",
+        "Trajectories Slinky.bind": 0,
+        "Trajectories Slinky.hold-bind": false,
+        "Trajectories Slinky.setting.line_width": 1.0,
+        "Trajectories Slinky.setting.color_hit": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
+        "Trajectories Slinky.setting.color_miss": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
+        "Trajectories Slinky.setting.render_throwables": true,
+        "Trajectories Slinky.setting.render_pearls": true,
+        "Trajectories Slinky.setting.render_bow": true,
+        "Trajectories Slinky.setting.render_uncharged_bow": false,
+        "Trajectories Slinky.hidden": false,
+        "Trajectories B4.marker-style": "Crystal",
+        "Trajectories Slinky.marker-style": "Classic"
+      }
+    },
+    "b4.network.blink": {
+      "enabled": false,
+      "values": {
+        "version": "Blink B4",
+        "Blink Slinky.bind": 0,
+        "Blink Slinky.hold-bind": false,
+        "Blink Slinky.setting.direction": "Out",
+        "Blink Slinky.setting.max_duration": 100.0,
+        "Blink Slinky.setting.disable_on_attack": false,
+        "Blink Slinky.setting.disable_on_block_interact": false,
+        "Blink Slinky.setting.disable_on_block_dig": false,
+        "Blink B4.hold-bind": false,
+        "Blink Slinky.hidden": false
+      }
+    },
+    "b4.network.fake-lag": {
+      "enabled": false,
+      "values": {
+        "version": "Fake Lag B4",
+        "Fake Lag Slinky.bind": 0,
+        "Fake Lag Slinky.hold-bind": false,
+        "Fake Lag Slinky.setting.mode": "Static",
+        "Fake Lag Slinky.setting.inbound": 50.0,
+        "Fake Lag Slinky.setting.outbound": 50.0,
+        "Fake Lag Slinky.setting.realtime_damage": false,
+        "Fake Lag Slinky.setting.require_weapon": false,
+        "Fake Lag Slinky.setting.require_attack": false,
+        "Fake Lag Slinky.setting.require_ingame": false,
+        "Fake Lag B4.hold-bind": false,
+        "Fake Lag Slinky.hidden": false
+      }
+    },
+    "b4.network.lag-range": {
+      "enabled": false,
+      "values": {
+        "version": "Lag Range B4",
+        "Lag Range Slinky.bind": 0,
+        "Lag Range Slinky.hold-bind": false,
+        "Lag Range Slinky.setting.delay": 100.0,
+        "Lag Range Slinky.setting.flush_sprint_reset": false,
+        "Lag Range Slinky.setting.flush_splash_potion": false,
+        "Lag Range Slinky.setting.render_remote_pos": false,
+        "Lag Range Slinky.setting.indicator_color": "{\"r\":0.9900000095367432,\"g\":0.9900000095367432,\"b\":0.9900000095367432}",
+        "Lag Range Slinky.setting.indicator_line_width": 1.0,
+        "Lag Range Slinky.setting.indicator_filled": true,
+        "Lag Range Slinky.setting.require_weapon": false,
+        "Lag Range B4.hold-bind": false,
+        "Lag Range Slinky.hidden": false
+      }
+    },
+    "b4.network.limbo": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.minigames.autowho": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.minigames.bed-wars": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.minigames.murder-mystery": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.minigames.sky-wars": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.other.hit-particles": {
+      "enabled": true,
+      "values": {}
+    },
+    "b4.other.latency-alerts": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.other.name-hider": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.client.chat-commands": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.other.view-packets": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.other.debug-ac": {
+      "enabled": false,
+      "values": {}
+    },
+    "slinky.autosoup": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.single_soup_max_hp": 13.0,
+        "setting.double_soup_max_hp": 6.0,
+        "setting.randomization": 0.5,
+        "setting.delay_before": 2.0,
+        "setting.delay_between": 0.5,
+        "setting.delay_after": 10.0,
+        "setting.drop_bowls": false,
+        "setting.override_item": false,
+        "setting.allowed_items": "[]",
+        "hidden": false
+      }
+    },
+    "slinky.teams": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.match_self_color": true,
+        "setting.team_colors": "[]",
+        "hidden": true
+      }
+    },
+    "slinky.gui": {
+      "enabled": false,
+      "values": {
+        "setting.scale": "Medium (100%)",
+        "setting.accent_color": "{\"r\":1.0,\"g\":0.3499999940395355,\"b\":0.0}",
+        "setting.allow_input": false,
+        "setting.compact": false,
+        "setting.wide": false,
+        "hidden": false
+      }
+    },
+    "slinky.criticals": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.mode": "Packet",
+        "setting.chance": 1.0,
+        "setting.max_delay": 100.0,
+        "setting.timer_speed": 0.8500000238418579,
+        "setting.boost": 0.0,
+        "setting.require_weapon": false,
+        "setting.require_mouse_pressed": false,
+        "hidden": false
+      }
+    },
+    "slinky.noitemrelease": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.mode": "Sword",
+        "hidden": false
+      }
+    },
+    "slinky.notifications": {
+      "enabled": false,
+      "values": {
+        "setting.hide_ingame": false,
+        "setting.hide_hold_notifs": true,
+        "setting.hide_bind_only": true,
+        "setting.show_combat": true,
+        "setting.show_move": true,
+        "setting.show_block": true,
+        "setting.show_visual": true,
+        "setting.show_utility": true,
+        "hidden": false
+      }
+    },
+    "slinky.nojumpdelay": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "hidden": true
+      }
+    },
+    "slinky.freelook": {
+      "enabled": false,
+      "values": {
+        "bind": 46,
+        "hold-bind": true,
+        "setting.target_perspective": "Third person",
+        "hidden": true
+      }
+    },
+    "slinky.weapons": {
+      "enabled": false,
+      "values": {
+        "setting.fist": false,
+        "setting.swords": true,
+        "setting.axes": false,
+        "setting.extra_items": "[\"Stick\"]",
+        "setting.enchant_sharpness": false,
+        "setting.enchant_knockback": true,
+        "setting.enchant_fire_aspect": false,
+        "setting.1": false,
+        "setting.2": false,
+        "setting.3": false,
+        "setting.4": false,
+        "setting.5": false,
+        "setting.6": false,
+        "setting.7": false,
+        "setting.8": false,
+        "setting.9": false,
+        "hidden": false
+      }
+    },
+    "slinky.refill": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "setting.refill_potion": true,
+        "setting.refill_potion_non_health": false,
+        "setting.refill_soup": true,
+        "setting.simulate_button": "Right",
+        "setting.delay_after_open": 2.0,
+        "setting.delay_before_close": 1.0,
+        "setting.speed": 2.0,
+        "setting.smart_speed": true,
+        "hidden": false
+      }
+    },
+    "slinky.autopot": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "setting.delay": 0.5,
+        "setting.prevent_waste": true,
+        "setting.double_splash": false,
+        "setting.use_non_health": false,
+        "hidden": false
+      }
+    },
+    "slinky.friends": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.middle_click_add": false,
+        "setting.friends": "[]",
+        "hidden": false
+      }
+    },
+    "slinky.pointers": {
+      "enabled": true,
+      "values": {
+        "version": "Meowtils",
+        "Pointers Slinky.bind": 0,
+        "Pointers Slinky.hold-bind": false,
+        "Pointers Slinky.setting.range": 100.0,
+        "Pointers Slinky.setting.ignore_fov": 0.0,
+        "Pointers Slinky.setting.hide_friendlies": false,
+        "Pointers Slinky.setting.style": "2D",
+        "Pointers Slinky.setting.color_mode": "Distance",
+        "Pointers Slinky.setting.near_far_range": "{\"min\":5.0,\"max\":30.0}",
+        "Pointers Slinky.setting.color_near": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
+        "Pointers Slinky.setting.color_far": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
+        "Pointers Slinky.setting.color_enemies": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
+        "Pointers Slinky.setting.color_friendlies": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
+        "Pointers Slinky.setting.scale": 1.0,
+        "Pointers Slinky.setting.radius": 10.0,
+        "Pointers Slinky.setting.scale_radius": false,
+        "Pointers Slinky.hidden": false,
+        "Meowtils.bind": 0,
+        "Meowtils.colorMode": "Distance colors",
+        "Meowtils.distanceRedAt": 6.0,
+        "Meowtils.distanceGreenAt": 35.0,
+        "Meowtils.radius": 23.0,
+        "Meowtils.maximumSize": 0.9,
+        "Meowtils.minimumSize": 0.6,
+        "Meowtils.minimumSizeDistance": 40.0,
+        "Meowtils.hideFarPointers": true,
+        "Meowtils.hideBeyondDistance": 40.0,
+        "Meowtils.ignoreTeammates": false,
+        "Meowtils.showBots": true,
+        "Meowtils.hideInCrowds": true,
+        "Meowtils.showDistance": false,
+        "Meowtils.distanceTextSize": 5.0,
+        "Meowtils.showDistanceUnit": true,
+        "Meowtils.proximityGlow": false,
+        "Meowtils.glowEffect": "Repeating pulse",
+        "Meowtils.glowDistance": 15.0,
+        "Pointers Slinky.marker-style": "Classic",
+        "Meowtils.hidden": false
+      }
+    },
+    "slinky.nohitdelay": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.mode": "Regular",
+        "hidden": false
+      }
+    },
+    "slinky.pingfix": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "hidden": false
+      }
+    },
+    "slinky.nousedelay": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.allow_desync": false,
+        "hidden": false
+      }
+    },
+    "slinky.block_esp": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.range": 2.0,
+        "setting.allowed_blocks": "[]",
+        "setting.should_limit_block_render": false,
+        "setting.block_render_limit": 100.0,
+        "setting.line_width": 1.0,
+        "hidden": false
+      }
+    },
+    "slinky.strafe": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.strength_jump": 0.0,
+        "setting.strength_ground": 0.0,
+        "setting.strength_air": 0.0,
+        "setting.max_hurt_time": 10.0,
+        "setting.require_weapon": false,
+        "hidden": false
+      }
+    },
+    "slinky.fastaccel": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.acceleration": 0.0,
+        "setting.require_not_damaged": false,
+        "setting.require_weapon": false,
+        "hidden": false
+      }
+    },
+    "slinky.instantstop": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "hidden": false
+      }
+    },
+    "slinky.itemusefix": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "hidden": false
+      }
+    },
+    "slinky.timerrange": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.mode": "Regular",
+        "setting.min_dist": 2.700000047683716,
+        "setting.duration": 3.0,
+        "setting.duration_legit": 2.0,
+        "setting.cooldown": 2.0,
+        "setting.block_while_frozen": false,
+        "setting.require_mouse_pressed": false,
+        "setting.require_weapon": false,
+        "setting.require_not_using_item": false,
+        "hidden": false
+      }
+    },
+    "slinky.autorod": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.retract_speed": 1.0,
+        "setting.delay": 0.5,
+        "setting.randomize_delays": true,
+        "setting.always_switch_to_weapon": false,
+        "setting.allow_throwables": false,
+        "setting.throw_speed": 5.0,
+        "setting.require_not_mouse_over": false,
+        "hidden": false
+      }
+    },
+    "slinky.piercing": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.sort_by": "Hurt time",
+        "setting.non_players": true,
+        "setting.friendlies": true,
+        "setting.bots": true,
+        "setting.enemies": true,
+        "setting.blocks": true,
+        "setting.require_weapon": false,
+        "setting.require_inside_bb": false,
+        "hidden": false
+      }
+    },
+    "slinky.knockbackdelay": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.range": 4.0,
+        "setting.chance": 1.0,
+        "setting.max_delay": 50.0,
+        "setting.require_air": true,
+        "setting.require_target": false,
+        "setting.require_mouse": false,
+        "setting.require_weapon": false,
+        "hidden": false
+      }
+    },
+    "slinky.debug": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.clicks": false,
+        "setting.hurt_time": false,
+        "setting.item_use_state": false,
+        "hidden": false
+      }
+    },
+    "slinky.nullmove": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "hidden": false
+      }
+    },
+    "slinky.clutch": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.range": 7.0,
+        "setting.max_aim_dist": 360.0,
+        "setting.min_height": 4.0,
+        "setting.click_speed": 18.0,
+        "setting.randomization": 0.5,
+        "setting.select_blocks": "Always",
+        "setting.sideways_only": false,
+        "setting.aim_speed": 30.0,
+        "setting.aim_mult": 0.5,
+        "setting.aim_mult_strength": 0.30000001192092896,
+        "setting.aim_multipoint": false,
+        "setting.snapback_delay": 6.0,
+        "setting.snapback_duration": 4.0,
+        "setting.snapback_instant_on_jump": false,
+        "setting.snapback_disable_after": false,
+        "setting.require_air": true,
+        "setting.require_damage": false,
+        "setting.require_backwards": false,
+        "hidden": false
+      }
+    },
+    "slinky.autoweapon": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "setting.activation_time": 2.0,
+        "setting.require_mouse_pressed": false,
+        "hidden": false
+      }
+    },
+    "slinky.clientspoof": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "hold-bind": false,
+        "hidden": true
+      }
+    },
+    "b4.scripts.sc-attributeswap": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.scripts.sc-basketball": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.scripts.sc-myautarget": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.scripts.sc-slinknotifs": {
+      "enabled": false,
+      "values": {}
+    },
+    "b4.scripts.sc-tellysc": {
+      "enabled": false,
+      "values": {}
+    },
+    "meow.requeue": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "feedback": false,
+        "autoRequeue": true,
+        "autoRequeueDelay": 1.0,
+        "requeueKey": 0,
+        "hidden": true
+      }
+    },
+    "meow.partynotifier": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "showPrefix": true,
+        "antiCheat": true,
+        "antiCheatMessage": "#player failed #check",
+        "bedTracker": false,
+        "bedTrackerMessage": "#player is #distance blocks from your bed! #warning",
+        "hidden": true
+      }
+    },
+    "meow.heightoverlay": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "color.text-color": "#FFFFFF",
+        "showHud": false,
+        "scale": 0.65,
+        "woolOverlay": true,
+        "woolColor": "Â§7Gray",
+        "hud.0.x": 0,
+        "hud.0.y": 0,
+        "hidden": true
+      }
+    },
+    "meow.shophelper": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "opacity": 50.0,
+        "highlightAffordable": false,
+        "replaceClicks": true,
+        "preventDuplicate": false,
+        "hidden": true
+      }
+    },
+    "meow.trapnotifier": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "triggerAlert": true,
+        "missingReminder": true,
+        "sound": true,
+        "hidden": true
+      }
+    },
+    "meow.consumetimer": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "color.text-color": "#FFFFFF",
+        "scale": 0.65,
+        "mode": "Seconds",
+        "dynamicColor": false,
+        "meow.consumetimer.bar": true,
+        "hud.0.x": 470,
+        "hud.0.y": 278,
+        "hidden": true
+      }
+    },
+    "meow.damagetags": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "color.text-color": "#FFFFFF",
+        "scale": 1.0,
+        "expireTime": 2.0,
+        "dynamicColor": true,
+        "fadeOut": false,
+        "suffix": true,
+        "hidden": true
+      }
+    },
+    "meow.healthdisplay": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "showOwn": true,
+        "healthScale": 0.65,
+        "meow.healthdisplay.bar": false,
+        "meow.healthdisplay.heart": true,
+        "showBow": false,
+        "bowScale": 0.65,
+        "hideSuffix": false,
+        "hud.0.x": 489,
+        "hud.0.y": 261,
+        "hud.1.x": 460,
+        "hud.1.y": 205,
+        "hidden": true
+      }
+    },
+    "meow.pinghud": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "dynamicColor": true,
+        "text": true,
+        "brackets": false,
+        "scale": 1.0,
+        "hud.0.x": 7,
+        "hud.0.y": 30,
+        "hidden": true
+      }
+    },
+    "meow.potionhud": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "name": "Short",
+        "display": "Both",
+        "scale": 0.65,
+        "alertTime": 5.0,
+        "expireSound": true,
+        "hideInfinite": true,
+        "invis": true,
+        "jump": true,
+        "speed": true,
+        "regen": true,
+        "strength": true,
+        "fireRes": true,
+        "haste": true,
+        "fatigue": true,
+        "hud.0.x": 440,
+        "hud.0.y": 255,
+        "hidden": true
+      }
+    },
+    "meow.noparticles": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "removeGlyph": true,
+        "removeSponge": true,
+        "removeBreak": false,
+        "hidden": true
+      }
+    },
+    "meow.autochest": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "delay": 50.0,
+        "waitDelay": 50.0,
+        "dumpKey": 0,
+        "takeKey": 0,
+        "renderClicked": false,
+        "enderChests": true,
+        "normalChests": true,
+        "iron": true,
+        "gold": true,
+        "diamonds": true,
+        "emeralds": true,
+        "hidden": false
+      }
+    },
+    "tool-advisor": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "tool-advisor.upgrades": "Required only",
+        "tool-advisor.tracking": "Closest teams",
+        "tool-advisor.memory": 3.0,
+        "hidden": false
+      }
+    }
+  },
+  "theme": "BUBBLEGUM",
+  "hud": {
+    "spotify.x": 403.5,
+    "spotify.y": 5.0,
+    "stasis-v2.x": 408,
+    "stasis-v2.y": 304,
+    "watermark.x": 6.0,
+    "watermark.y": 6.0,
+    "armor.hud.x": 861.0,
+    "armor.hud.y": 444.0
+  },
+  "b4Profile": {
+    "keybind": 0,
+    "modules": [
+      {
+        "name": "AutoBlock",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Max hurt time": 50.0,
+        "Max hold duration": 300.0,
+        "Random hold duration": 50.0,
+        "Cooldown": 0.0,
+        "Range": 4.2,
+        "Disable block out of range": true,
+        "Disable while chasing": true,
+        "Force block animation": false,
+        "Ignore mobs": true,
+        "Ignore teammates": true,
+        "Only while left clicking": false,
+        "Only while right clicking": true,
+        "Only while targeting": false,
+        "Lag chance": 0.0,
+        "Lag duration": 10.0,
+        "Flush on attack": false,
+        "Flush on interact item": false
+      },
+      {
+        "name": "AutoClicker",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Min CPS": 11.0,
+        "Max CPS": 13.0,
+        "Inventory CPS": 0.0,
+        "Block hit": 0.0,
+        "Jitter": 0.0,
+        "Left click": true,
+        "^ Click on damage": true,
+        "^ Break blocks": true,
+        "^ Weapon only": false,
+        "Right click": false,
+        "^ Blocks only": true
+      },
+      {
+        "name": "AimAssist",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Speed": 50.0,
+        "FOV": 120.0,
+        "Range": 5.0,
+        "Rotate yaw": true,
+        "Rotate pitch": true,
+        "Aim invis": false,
+        "Aim mobs": false,
+        "Aim through blocks": true,
+        "Click aim": false,
+        "Ignore teammates": true,
+        "Silent aim": false,
+        "Stop on target": false,
+        "Stop when breaking": false,
+        "Weapon only": true
+      },
+      {
+        "name": "AntiKnockback",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Horizontal": 100.0,
+        "Vertical": 100.0,
+        "Disable in lobby": true,
+        "Only while moving": false,
+        "Cancel burning": true,
+        "Cancel explosion": true,
+        "Cancel ground": false,
+        "Cancel off ground": false,
+        "Cancel while falling": false,
+        "Cancel interval": 1.0,
+        "Damage boost": 0.8,
+        "Boost with LMB": false,
+        "Delay": 150.0,
+        "Delay if landing": true,
+        "Delay only midair": true,
+        "Delay only targeting": false,
+        "Delay simultaneously": false,
+        "Delay until ground": true,
+        "Disable attack while delay": false
+      },
+      {
+        "name": "Backtrack",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Delay": 100.0,
+        "Distance (min)": 2.0,
+        "Distance (max)": 6.0,
+        "Cooldown": 0.5,
+        "FOV": 180.0,
+        "Disable adventure": true,
+        "Disable while chasing": true,
+        "Flush on damage": true,
+        "Ignore teammates": true,
+        "Show server position": true,
+        "Only hittable": true,
+        "Only movement": true,
+        "Weapon only": false
+      },
+      {
+        "name": "ClickAssist",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Disable in creative": true,
+        "Disable in replays": true,
+        "Left click": true,
+        "Chance left": 80.0,
+        "Weapon only": false,
+        "Only while targeting": false,
+        "Right click": false,
+        "Chance right": 80.0,
+        "Blocks only": true,
+        "Above 5 cps": true
+      },
+      {
+        "name": "Displace",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 19,
+        "Mode": 3.0,
+        "Angle": 85.0,
+        "Cooldown": 0.2,
+        "Hide rotations": false,
+        "Only knockback items": true,
+        "Override attacks": true,
+        "Players only": true,
+        "Render arrow": true,
+        "Manual": true,
+        "AutoClicker": true,
+        "KillAura": true
+      },
+      {
+        "name": "Hitbox",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Multiplier": 1.0,
+        "Players only": true,
+        "Show modified hitbox": false,
+        "Weapon only": false
+      },
+      {
+        "name": "Hit Select",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Pause": 200.0,
+        "Only in combo": 0.0,
+        "Disable on low health": true,
+        "Fake swing": true,
+        "Force first hit": false,
+        "Only critical hits": false,
+        "Only while jumping": false,
+        "Reset combo on swap": true,
+        "Reset on damage": true,
+        "Manual": true,
+        "AutoClicker": true,
+        "KillAura": true
+      },
+      {
+        "name": "Jump Reset",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Chance": 100.0,
+        "Minimize vertical": true,
+        "Only while targeting": false
+      },
+      {
+        "name": "KillAura",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "APS": 16.0,
+        "Attack on damage": 2.0,
+        "AutoBlock": 0.0,
+        "AutoBlock APS": 10.0,
+        "AutoBlock lag": 0.0,
+        "FOV": 360.0,
+        "Range (attack)": 3.1,
+        "Range (swing)": 3.9,
+        "Range (block)": 4.4,
+        "Rotation mode": 0.0,
+        "Rotation smoothing": 0.9,
+        "Sort mode": 0.0,
+        "Switch delay": 150.0,
+        "Targets": 3.0,
+        "Aim invis": true,
+        "Attack fireballs": false,
+        "Attack mobs": true,
+        "Attack players": true,
+        "Disable in inventory": true,
+        "Disable while blocking": true,
+        "Disable while mining": true,
+        "Disable sprint midair": true,
+        "Hit through blocks": false,
+        "Ignore teammates": true,
+        "Manual block": true,
+        "Prioritize enemies": true,
+        "Require mouse down": false,
+        "Silent swing while blocking": false,
+        "Weapon only": false
+      },
+      {
+        "name": "Reach",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Min": 3.1,
+        "Max": 3.3,
+        "Weapon only": false,
+        "Moving only": false,
+        "Sprint only": false,
+        "Hit through blocks": false
+      },
+      {
+        "name": "Reduce",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Attack reduction": 60.0,
+        "Chance": 100.0
+      },
+      {
+        "name": "TPAura",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Range": 0.0,
+        "Weapon only": false
+      },
+      {
+        "name": "Velocity",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Horizontal": 100.0,
+        "Vertical": 100.0,
+        "Chance": 100.0,
+        "Only while targeting": false,
+        "Disable while holding S": false
+      },
+      {
+        "name": "WTap",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Chance": 100.0,
+        "Delay between reset": 150.0,
+        "Delay until reset": 100.0,
+        "Disable while chasing": true,
+        "Players only": true,
+        "Silent": false
+      },
+      {
+        "name": "Bhop",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 2.0,
+        "Speed": 1.0,
+        "Speed boost": 1.1,
+        "Offset": 0.0,
+        "Strafe decay": 0.0,
+        "Auto jump": false,
+        "Disable in inventory": true,
+        "Disable in liquid": true,
+        "Disable with jump potion": true,
+        "Disable while collided": false,
+        "Disable while sneaking": true,
+        "Maximize strafe ticks": false,
+        "Stop motion on disable": false
+      },
+      {
+        "name": "Boost",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Boost ticks": 15.0,
+        "Multiplier": 2.0
+      },
+      {
+        "name": "Dolphin",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Horizontal speed": 1.0,
+        "Vertical speed": 1.0,
+        "Buoyant": false,
+        "Disable while using": true,
+        "Disable vertical while moving": false,
+        "Forward only": true
+      },
+      {
+        "name": "Fly",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Fly": 0.0,
+        "Horizontal speed": 1.5,
+        "Vertical speed": 1.5,
+        "Show BPS": false,
+        "Stop motion": false
+      },
+      {
+        "name": "InvMove",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Inventory": 2.0,
+        "Chest & others": 1.0,
+        "Motion": 1.0,
+        "Modify motion after click": false,
+        "Slow motion when necessary": false,
+        "Allow jumping": true,
+        "Allow movement": true,
+        "Allow midair": true,
+        "Allow rotating": true,
+        "Allow speed potion": true,
+        "Allow sprinting": true,
+        "Only with inventory manager": false
+      },
+      {
+        "name": "KeepSprint",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Slow": 0.0,
+        "Disable while jumping": false,
+        "Disable sprinting": false,
+        "Only reduce reach hits": false
+      },
+      {
+        "name": "Long Jump",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Horizontal boost": 0.0,
+        "Vertical motion": 0.0,
+        "Motion ticks": 1.0,
+        "Add motion": false,
+        "Allow strafe": false,
+        "Invert yaw": false,
+        "Jump": true,
+        "Stop motion on disable": false
+      },
+      {
+        "name": "NoSlow",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Slow": 0.0,
+        "Disable sprint": false,
+        "Bow": true,
+        "Edibles": true,
+        "Potions": true,
+        "Sword": true
+      },
+      {
+        "name": "Speed",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Speed": 0.0,
+        "Multiplier": 1.0,
+        "Disable in inventory": false,
+        "Only forward": true,
+        "Only strafe": false,
+        "Setback recovery": true
+      },
+      {
+        "name": "Sprint",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "posX": 5,
+        "posY": 5,
+        "text": "[Sprint (Toggled)]",
+        "Disable backwards": true,
+        "Display text": false,
+        "Rainbow": false
+      },
+      {
+        "name": "Stasis",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 33,
+        "Pulse": 20.0
+      },
+      {
+        "name": "Stop Motion",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Stop X": true,
+        "Stop Y": true,
+        "Stop Z": true
+      },
+      {
+        "name": "TargetStrafe",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Radius": 1.5,
+        "Range": 4.0,
+        "Yaw offset": 45.0,
+        "Only while middle clicking": true
+      },
+      {
+        "name": "Teleport",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Right click teleport": true,
+        "Highlight target": true,
+        "Highlight path": false
+      },
+      {
+        "name": "Timer",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Multiplier slider": 1.0,
+        "Slider A": 1.0,
+        "Slider B": 0.05,
+        "Slider C": 3.0,
+        "Disable chat & menu": false,
+        "Disable on teleport": true,
+        "Reset on input": true,
+        "Strafe only": false
+      },
+      {
+        "name": "VClip",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Distance": 3.0,
+        "Send message": true,
+        "Send packets": false
+      },
+      {
+        "name": "45 Jump",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Flying": false,
+        "Holding blocks": true,
+        "Holding bow": true,
+        "Holding throwable": true,
+        "Holding rod": true,
+        "In liquid": false,
+        "Targeting": true
+      },
+      {
+        "name": "AntiAFK",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "AFK": 0.0,
+        "Jump": true,
+        "Jump only when collided": false,
+        "Random clicks": true,
+        "Swap item": false,
+        "Spin": 0.0,
+        "Randomize delta": true,
+        "Randomize pitch": true,
+        "Minimum delay ticks": 20.0,
+        "Maximum delay ticks": 20.0
+      },
+      {
+        "name": "AntiFireball",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "FOV": 20.0,
+        "Range": 5.0,
+        "Disable while flying": true,
+        "Disable while scaffold": false,
+        "Rotate with blocks": true,
+        "Rotate with projectiles": true,
+        "Silent swing": true
+      },
+      {
+        "name": "AutoBlockin",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Delay": 2.0,
+        "Disable in creative": true,
+        "Disable obsidian": true,
+        "Disable when complete": true,
+        "Only while middle clicking": true,
+        "Prioritize stronger blocks": true,
+        "Show percentage": true,
+        "Silent aim": true,
+        "Silent swing": true,
+        "Skip near bed": true
+      },
+      {
+        "name": "AutoJump",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Stop while sneaking": true
+      },
+      {
+        "name": "AutoLadder",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Minimum fall distance": 5.0,
+        "Only while holding ladder": true
+      },
+      {
+        "name": "AutoPlace",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Frame delay": 6.0,
+        "Min place delay": 60.0,
+        "Min post delay": 0.0,
+        "Motion": 1.0,
+        "Delay until pre": false,
+        "Disable left": false,
+        "Hold right": true,
+        "Fast place on jump": true,
+        "Pitch check": false,
+        "Show block count": true,
+        "Silent swing": false
+      },
+      {
+        "name": "AutoSwap",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Switch at": 0.0,
+        "Only same type": true,
+        "Spoof item": false,
+        "Swap to greater stack": false
+      },
+      {
+        "name": "AutoTool",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Hover delay": 0.0,
+        "Disable on interactable": true,
+        "Disable while holding blocks": false,
+        "Disable while right click": true,
+        "Enable when holding tools": false,
+        "Enable when sneaking": false,
+        "Require mouse down": true,
+        "Spoof item": false,
+        "Swap to previous slot": true
+      },
+      {
+        "name": "BedAura",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Break mode": 0.0,
+        "Break speed": 1.0,
+        "FOV": 360.0,
+        "Range": 4.5,
+        "Rate": 0.05,
+        "Allow KillAura": false,
+        "Break near block": true,
+        "Cancel knockback": false,
+        "Disable bhop": false,
+        "Disable break effects": false,
+        "Disable right click": true,
+        "Ground spoof": false,
+        "Ignore slow": false,
+        "Maximize speed": true,
+        "Only while visible": true,
+        "Prioritize KillAura": false,
+        "Render block outline": true,
+        "Send animations": true,
+        "Silent swing": false,
+        "Skip break verification": true
+      },
+      {
+        "name": "Delay Remover",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "1.7 hitreg": true,
+        "Remove jump ticks": true
+      },
+      {
+        "name": "FastMine",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Break delay": 1.0,
+        "Break speed": 1.2,
+        "Visual mode": 2.0,
+        "Disable in creative": true,
+        "Ignore shears": false
+      },
+      {
+        "name": "FastPlace",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Delay": 1.0,
+        "Minimum hold time": 0.0,
+        "Allow ladders": true,
+        "Auto swap blocks": true,
+        "Blocks only": true,
+        "Pitch check": false,
+        "Show block count": false
+      },
+      {
+        "name": "Freecam",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Speed": 5.0,
+        "Allow chatting": false,
+        "Allow digging": false,
+        "Allow interacting": false,
+        "Allow placing": false,
+        "Disable on damage": true,
+        "Show arm": false
+      },
+      {
+        "name": "GhostHand",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Allow mining": true,
+        "Allow placing": true,
+        "Disable with weapon": false,
+        "Disable on bots": true,
+        "Only while holding tools": true,
+        "Only while sneaking": false
+      },
+      {
+        "name": "InvManager",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Close chest": false,
+        "Close inventory": false,
+        "Disable in lobby": true,
+        "Auto armor": -1.0,
+        "Auto sort": -1.0,
+        "Chest stealer": -1.0,
+        "Steal from custom chests": false,
+        "Inventory cleaner": -1.0,
+        "Middle click to clean": true,
+        "Sword": 1.0,
+        "Bow": 0.0,
+        "Blocks": 2.0,
+        "Golden apple": 3.0,
+        "Projectile/Rod": 0.0,
+        "Speed potion": 0.0,
+        "Ender pearl": 0.0,
+        "Water bucket": 0.0,
+        "Lava bucket": 0.0,
+        "Rod over projectile": true,
+        "^ Only with knockback": true
+      },
+      {
+        "name": "NoFall",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Minimum fall distance": 3.0,
+        "Disable adventure": false,
+        "Ignore void": true
+      },
+      {
+        "name": "NoRotate",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0
+      },
+      {
+        "name": "SafeWalk",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Mode": 1.0,
+        "Edge tolerance": 2.0,
+        "Minimum pitch": 70.0,
+        "Unsneak delay": 0.0,
+        "Blocks only": true,
+        "Disable on forward": true,
+        "Only while right clicking": false,
+        "Only while sneaking": false
+      },
+      {
+        "name": "Scaffold",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Motion": 1.0,
+        "Rotation": 1.0,
+        "Rotation (ext)": 6.0,
+        "Snap fast mode": 2.0,
+        "Snap rotations": 0.0,
+        "Snap rotation speed": 6.0,
+        "Snap telly RMB": true,
+        "Snap tower": 0.0,
+        "Snap timer ticks": 10.0,
+        "Snap sneak every": 0.0,
+        "Rotation (fake)": 1.0,
+        "Fast scaffold": 0.0,
+        "Fast scaffold RMB": 2.0,
+        "Fast scaffold motion": 1.0,
+        "Multi-place": 0.0,
+        "Precision": 2.0,
+        "Sneak every": 0.0,
+        "Speed boost": 1.3,
+        "Highlight theme": 8.0,
+        "Auto swap": true,
+        "Cancel knockback": false,
+        "Highlight blocks": true,
+        "Jump facing forward": false,
+        "Legit motion": true,
+        "SafeWalk": false,
+        "Show block count": true,
+        "Silent swing": true,
+        "Slow on enable": false,
+        "Slow speed potion": false,
+        "Tower": false
+      },
+      {
+        "name": "Tower",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Speed": 1.2,
+        "Diagonal speed": 1.2,
+        "Speed boost": 1.3,
+        "Slowed speed": 1.0,
+        "Slowed ticks": 0.0,
+        "Disable in liquid": true,
+        "Disable while collided": false,
+        "Disable safewalk": false,
+        "Disable while hurt": false,
+        "Only while right clicking": false,
+        "Setback recovery": false,
+        "Skip slow with fast scaffold": false
+      },
+      {
+        "name": "Water Bucket",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Minimum fall distance": 20.0,
+        "Pickup water": false,
+        "Silent aim": true,
+        "Switch to item": true
+      },
+      {
+        "name": "AntiBot",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Delay (spawn)": 0.2,
+        "^ Disable in duels": true,
+        "Delay (respawn)": 0.2,
+        "Pit spawn": 79.0,
+        "Filter watchdog": true,
+        "Tab list": true,
+        "Print world join": false
+      },
+      {
+        "name": "Weather",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Time": 24.0,
+        "Lightning": 0.0,
+        "Rain": false
+      },
+      {
+        "name": "AntiDebuff",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Alert in chat": true,
+        "Remove blindness": true,
+        "Remove nausea": true
+      },
+      {
+        "name": "AntiShuffle",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0
+      },
+      {
+        "name": "BedESP",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Theme": 8.0,
+        "Range": 200.0,
+        "Rate": 2.0,
+        "Disable in lobby": true,
+        "Draw beam": false,
+        "Only render first bed": false,
+        "Optimize for Bed Wars": true,
+        "Render full block": false,
+        "Covering blocks": 0.5,
+        "Show tools only": false,
+        "Show whitelisted covering": true
+      },
+      {
+        "name": "BreakProgress",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Show Manual": true,
+        "Show BedAura": true,
+        "Fade in": true
+      },
+      {
+        "name": "Chams",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Ignore bots": false,
+        "Hide players": false,
+        "Render self": false
+      },
+      {
+        "name": "ChestESP",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Red": 0.0,
+        "Green": 200.0,
+        "Blue": 200.0,
+        "Rainbow": false,
+        "Outline": false,
+        "Shade": true,
+        "Disable if opened": false
+      },
+      {
+        "name": "Damage Tags",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Length": 1.0,
+        "Scale": 1.0,
+        "Theme": 0.0,
+        "Show heal": true,
+        "Show hurt": true,
+        "Show invis": true,
+        "Show mobs": true,
+        "Traditional health color": true
+      },
+      {
+        "name": "Extend Camera",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Distance": 4.0
+      },
+      {
+        "name": "Extra Bobbing",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Offset": 0.1
+      },
+      {
+        "name": "Fall View",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Disable while flying": true,
+        "Only while sneaking": false,
+        "Override health format": true,
+        "Show damage": true,
+        "Show distance": false,
+        "Show remaining health": false
+      },
+      {
+        "name": "HUD",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "posX": 7,
+        "posY": 32,
+        "Outline": 0.0,
+        "Scale": 1.0,
+        "Theme": 0.0,
+        "Align right": false,
+        "Alphabetical sort": false,
+        "Animate": true,
+        "Draw background": true,
+        "Lowercase": true,
+        "Remove closet modules": false,
+        "Remove render modules": true,
+        "Remove scripts": true,
+        "Show module info": true
+      },
+      {
+        "name": "Indicators",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Render arrows": true,
+        "Render ender pearls": true,
+        "Render fireballs": true,
+        "Arrow": 0.0,
+        "Circle radius": 50.0,
+        "Item colors": true,
+        "Render item": true,
+        "Render only threats": true
+      },
+      {
+        "name": "ItemESP",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Disable diamond": false,
+        "Disable emerald": false,
+        "Disable gold": false,
+        "Disable iron": true
+      },
+      {
+        "name": "MobESP",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Health bar": false,
+        "Outline": false,
+        "Shaded": true,
+        "Blaze §6Orange": true,
+        "Creeper §aGreen": true,
+        "Enderman §7Black": true,
+        "Ghast §fWhite": true,
+        "Iron Golem §fWhite": true,
+        "Silverfish §7Gray": true,
+        "Skeleton §fWhite": true,
+        "Slime §aGreen": true,
+        "Spider §7Black": true,
+        "Witch §5Magenta": true,
+        "Wolf §fWhite": true,
+        "Zombie §1Blue": true,
+        "Zombie Pigman §dPink": true
+      },
+      {
+        "name": "Nametags",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Background": 30.0,
+        "Scale": 0.7,
+        "Auto-scale": true,
+        "Disable in lobby": true,
+        "Only render name": false,
+        "Render self": false,
+        "Show distance": false,
+        "Show health": true,
+        "Show hits to kill": false,
+        "Show invis": true,
+        "Sneak suffix": true,
+        "Remove tags": false,
+        "Show items": true,
+        "Show enchants": false,
+        "Show durability": false,
+        "Show stack size": false
+      },
+      {
+        "name": "NoCameraClip",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0
+      },
+      {
+        "name": "NoHurtCam",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Multiplier": 0.0
+      },
+      {
+        "name": "PlayerESP",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Type": 5.0,
+        "Red": 0.0,
+        "Green": 255.0,
+        "Blue": 255.0,
+        "Disable in lobby": false,
+        "Rainbow": false,
+        "Health bar": false,
+        "Red on damage": false,
+        "Render self": false,
+        "Team color": true,
+        "Show invis": true
+      },
+      {
+        "name": "Radar",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Show tracer lines": false
+      },
+      {
+        "name": "Shaders",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Shader": 0.0
+      },
+      {
+        "name": "TargetHUD",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "posX": -5,
+        "posY": 68,
+        "Mode": 2.0,
+        "Theme": 0.0,
+        "Render ESP": false,
+        "Show difference": false,
+        "Show health": true,
+        "Show win/loss": false,
+        "Traditional health color": false
+      },
+      {
+        "name": "Tracers",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Show invis": true,
+        "Line width": 1.0,
+        "Red": 0.0,
+        "Green": 255.0,
+        "Blue": 0.0,
+        "Rainbow": false
+      },
+      {
+        "name": "Trajectories",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Auto-scale target": true,
+        "Disable uncharged bow": true,
+        "Highlight on entity": true,
+        "Draw block outline": true,
+        "Shorten line": true,
+        "Bow": true,
+        "Egg": true,
+        "Ender pearl": true,
+        "Ender pearl (thrown)": true,
+        "Fireball (enemy)": true,
+        "Fireball (thrown)": true,
+        "Snowball": true
+      },
+      {
+        "name": "Xray",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Range": 200.0,
+        "Rate": 0.4,
+        "Coal": false,
+        "Diamond": false,
+        "Emerald": false,
+        "Gold": false,
+        "Iron": false,
+        "Lapis": false,
+        "Obsidian": true,
+        "Redstone": false,
+        "Spawner": false
+      },
+      {
+        "name": "Blink",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Auto-disable": 0.0,
+        "Cancel knockback": false,
+        "Disable on attack": false,
+        "Disable on inventory": false,
+        "Disable on mine": false,
+        "Disable on place": false,
+        "Show blink ticks": true,
+        "Show initial position": true
+      },
+      {
+        "name": "Fake Lag",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Outbound delay": 100.0,
+        "Pulse": 120.0,
+        "Disable on attack": false,
+        "Show server position": false
+      },
+      {
+        "name": "Freeze",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Auto-disable": 0.0,
+        "Activate on hit": true,
+        "Disable on bed break": true,
+        "Disable on interact": true,
+        "Show freeze ticks": true,
+        "Show knockback direction": true,
+        "Update chat messages": true,
+        "Update block changes": true,
+        "Update player health": true,
+        "Update player positions": true,
+        "Update scoreboard": true,
+        "Update sound effects": true
+      },
+      {
+        "name": "Lag Range",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Packet delay (close)": 100.0,
+        "Packet delay (far)": 200.0,
+        "Max lag time": 5.0,
+        "Start range": 8.5,
+        "Block sword on lag": false,
+        "Disable adventure": true,
+        "Ignore teammates": true,
+        "Invisible players": false,
+        "Only enemies": false,
+        "Random lag": false,
+        "Show server position": false,
+        "Weapon only": false,
+        "Holding any block": false,
+        "Holding consumable": true,
+        "Holding bow": true,
+        "Holding buckets": true,
+        "Holding fireball": true,
+        "Holding fishing rod": true,
+        "Holding ladders": true,
+        "On interact item": true
+      },
+      {
+        "name": "Limbo",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Lock": false
+      },
+      {
+        "name": "VPN Status",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0
+      },
+      {
+        "name": "AutoRequeue",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Delay": 0.5
+      },
+      {
+        "name": "AutoWho",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Artificial": false,
+        "Hide message": true,
+        "Run BedWars in game": true
+      },
+      {
+        "name": "Bed Wars",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Instant shop": true,
+        "Scroll to deposit/withdraw": true,
+        "Whitelist own bed": true,
+        "Alert interval": 5.0,
+        "Bow": true,
+        "Diamond armor": false,
+        "Dream defender": false,
+        "Ender pearl": true,
+        "Enchants": false,
+        "Fireball": true,
+        "Knockback stick": true,
+        "Magic milk": false,
+        "Obsidian": true,
+        "Potions": false,
+        "Rotation items": false,
+        "Water bucket": false,
+        "Invisible players": false,
+        "Ignore teammates": true,
+        "Send party chat": false,
+        "Should ping": false,
+        "Closest enemy": 1.0,
+        "Dragon": true,
+        "Magic milk timer": true
+      },
+      {
+        "name": "Bridge Info",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0
+      },
+      {
+        "name": "Duels Stats",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Mode": 0.0,
+        "Send party chat": false,
+        "Threat level": true
+      },
+      {
+        "name": "Murder Mystery",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Alert murderer": true,
+        "Info HUD": true,
+        "Bow": true,
+        "Dead": true,
+        "Gold ingots": true,
+        "Innocent": true,
+        "Murderer": true
+      },
+      {
+        "name": "Sky Wars",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Closest enemy": 0.0,
+        "Strength indicator": true,
+        "Time warp pearl": true
+      },
+      {
+        "name": "Speed Builders",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Activation": 0.0,
+        "Auto place": 0.0,
+        "Place delay": 1.0,
+        "Auto swap": 0.0,
+        "Render blocks": 2.0,
+        "Show stats": 1.0,
+        "Info HUD": true,
+        "Save stats": true,
+        "Show time": true,
+        "Strict placements": true
+      },
+      {
+        "name": "Sumo Fences",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Fence height": 4.0,
+        "Block type": 1.0
+      },
+      {
+        "name": "AntiCheat",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Flag interval": 3.0,
+        "Add cheaters as enemy": false,
+        "Auto report": false,
+        "Disable outside minigames": false,
+        "Hide chat alerts": true,
+        "Ignore teammates": false,
+        "Send party chat": false,
+        "Should ping": false,
+        "AutoBlock": true,
+        "Legit Scaffold": true,
+        "NoSlow": true,
+        "Nuker": false,
+        "Scaffold": true,
+        "AimAssist": false,
+        "AutoClicker": false,
+        "Blink": false,
+        "FastMine": true,
+        "NoFall": false,
+        "Protocol": false
+      },
+      {
+        "name": "Chat Bypass",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Only filter known words": true
+      },
+      {
+        "name": "Fake Chat",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0
+      },
+      {
+        "name": "Hit Particles",
+        "enabled": true,
+        "hidden": true,
+        "keybind": 0,
+        "Intensity": 1.0,
+        "Primary": 1.0,
+        "Secondary": 0.0,
+        "Disable reach hits": false,
+        "Players only": false,
+        "Weapon only": false
+      },
+      {
+        "name": "Latency Alerts",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Alert interval": 3.0,
+        "High latency": 1.0,
+        "Ignore limbo": true
+      },
+      {
+        "name": "Name Hider",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "cname": "Player"
+      },
+      {
+        "name": "Assistant",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Assistant": 0.0
+      },
+      {
+        "name": "Command Line",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Animate": true
+      },
+      {
+        "name": "Chat Commands",
+        "enabled": false,
+        "hidden": true,
+        "keybind": 0,
+        "Prefix": 2.0,
+        "Lowercase": false
+      },
+      {
+        "name": "IRC",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Prefix": 1.0,
+        "Anonymous": false,
+        "Filter bad words": false,
+        "Play mention sound": true,
+        "Play message sound": false,
+        "Receive messages": true,
+        "Send messages": true
+      },
+      {
+        "name": "Gui",
+        "enabled": false,
+        "hidden": false,
+        "Scale": 1.0,
+        "Background blur": 50.0,
+        "Scroll speed": 35.0,
+        "Allow movement": true,
+        "Allow rotating": true,
+        "Dark background": true,
+        "Hide player model": true,
+        "Hide watermark": true,
+        "Lite mode": false,
+        "Rainbow outlines": false
+      },
+      {
+        "name": "Settings",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "posX": 4,
+        "posY": 150,
+        "Custom cape": 1.0,
+        "Default theme": 8.0,
+        "Hittable hurt time": 3.0,
+        "Add brackets to distance": false,
+        "Hide first person self ESP": false,
+        "Middle click friends": false,
+        "Set chat as inventory": true,
+        "Show health as hearts": false,
+        "Show heart symbol": false,
+        "Axe": true,
+        "Enchanted": true,
+        "Fist": false,
+        "Hoe": false,
+        "Rod": true,
+        "Shovel": false,
+        "Stick": true,
+        "Background": 2.0,
+        "Aim closest point": 100.0,
+        "Rotate body": true,
+        "Full body": false,
+        "Movement fix": true,
+        "Jitter yaw": 0.0,
+        "Send message on enable": true,
+        "Offset": 0.5,
+        "Time multiplier": 0.5
+      },
+      {
+        "name": "Test",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Block break test": false,
+        "Break time": false,
+        "Limbo packet": false,
+        "Limbo type": 0.0,
+        "Print ticks": false,
+        "Bedwars TP": false,
+        "Bedwars TP delay": 0.0,
+        "Bedwars lobby TP": false,
+        "Kill counter": false,
+        "Kill counter check": false,
+        "Anti dcbot": false,
+        "Entity info": false,
+        "Rejoin": false
+      },
+      {
+        "name": "View Packets",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Include cancelled": false,
+        "Logs only": false,
+        "Round values": true,
+        "Sent": true,
+        "Ignore C00": true,
+        "Ignore C03": false,
+        "Compact C03": true,
+        "Ignore C08": false,
+        "Ignore C0A": false,
+        "Ignore C0F": true,
+        "Received": false
+      },
+      {
+        "name": "Debug AC",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Should ping": true,
+        "Backwards speed": true,
+        "Blink": true,
+        "Dig targets": true,
+        "Ground spoof": true,
+        "Incorrrect hit vec": false,
+        "Missing stop sprint": true
+      },
+      {
+        "name": "sc-AttributeSwap",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Swap delay": 0.0,
+        "Stick on enable": true,
+        "Lock hotbar": true,
+        "Disable while mining": true,
+        "Prefer Knockback Sword": false
+      },
+      {
+        "name": "sc-Basketball",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Throw Key": 2.0,
+        "Hoop Key": 0.0,
+        "Transport": 0.0,
+        "Throw Power": 1.0,
+        "Gravity": 0.035,
+        "Bounce": 0.55,
+        "Ball Size": 0.25,
+        "Ball Color": 0.0,
+        "Custom Hue": 30.0,
+        "Trail": 18.0,
+        "3PT Distance": 12.0,
+        "Style": 0.0,
+        "Glow": true,
+        "Player Collision": true,
+        "Swish Bonus": true,
+        "Sounds": true,
+        "Scoreboard": true
+      },
+      {
+        "name": "sc-MyauTarget",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Set Position": false,
+        "AntiCheat Alert": true,
+        "Show Model": false,
+        "Show Numbers": true,
+        "Show Ping": false,
+        "Text Shadow": true,
+        "Debug": false,
+        "HUD Scale": 100.0,
+        "Avatar Scale": 14.0,
+        "Offset X": 0.0,
+        "Offset Y": 0.0
+      },
+      {
+        "name": "sc-slinknotifs",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Ignore InvMove": false,
+        "Start with {f}": true,
+        "Theme": 0.0,
+        "Disable theme": 0.0,
+        "Duration": 3000.0,
+        "Scale": 0.9,
+        "Position": 3.0,
+        "Edit position": false
+      },
+      {
+        "name": "sc-tellysc",
+        "enabled": false,
+        "hidden": false,
+        "keybind": 0,
+        "Auto swap": true,
+        "Disable SafeWalk": true,
+        "Show activation hitbox": true,
+        "Only when RMB held": true,
+        "Speed telly": true,
+        "Click Sound": false,
+        "Progress": true,
+        "Activation delay": 300.0
+      }
+    ]
+  }
+}

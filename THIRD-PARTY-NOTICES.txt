@@ -1,0 +1,147 @@
+--- CREDITS.txt ---
+Lunar agent - https://github.com/curxxed-mc/lunar-agent
+Skin denicker - https://github.com/PugrillaDev/Raven-Scripts/blob/main/Denicker.java
+Latency alerts - Blowsy
+Raven health ESP - Blowsy
+Bedwars map heights - Marmottons
+Copy chat - Skytils
+
+--- LICENSE.txt ---
+# Meowtils License
+
+All rights reserved.
+
+1: Permissions
+
+You are hereby granted permission to:
+
+- Download and use Meowtils for personal use.
+
+- Decompile or inspect the source code to verify functionality, understand features, or analyze how the code works and interacts with your game.
+
+- Create your own derivative works of Meowtils for personal use only.
+
+- Create and distribute separate mods that interact with Meowtils classes, modify or extend its features, provided:
+    - They do not modify Meowtils' original JAR file.
+    - They are clearly marked as unofficial and separate from Meowtils.
+
+- Distribute official, unmodified versions of Meowtils, provided no changes or additions have been made to the original code or assets.
+
+- Use a limited set of source code, provided proper credits are clearly given to Meowtils.
+
+2: Restrictions
+
+You may not:
+
+- Distribute modified versions of Meowtils, or tools/patches whose primary purpose is to alter Meowtils original code or assets. This does not restrict distribution of separate modifications for Meowtils that may modify it at runtime without modifying the original JAR file.
+
+- Use any portion of the source code, assets, or resources from Meowtils in any project intended for public distribution without proper credits given.
+
+- Sell, monetize, or otherwise profit from distributing Meowtils or any modified/derivative version thereof, including but not limited to paywalls, ad-based links, or inclusion in paid modpacks.
+
+## 3: Disclaimer
+
+Meowtils is provided as-is without warranty of any kind. The author shall not be held liable for any damages or issues resulting from the use of Meowtils.
+
+--- META-INF/NOTICE.md ---
+# Attribution and port boundary
+
+This unofficial standalone Forge 1.8.9 mod contains Stasis and its event types
+from IamNespola/OpenMyau-Plus, licensed under GNU GPL version 3. See LICENSE.
+Upstream contributors retain their copyright. Standalone adapter code in this
+project's Stasis adapter remains under GPL-3.0. See the separate Rise notice below
+for the newly added animation material; this does not relicense that material.
+
+Upstream repository: https://github.com/IamNespola/OpenMyau-Plus
+Pinned main commit: 52c8492c68ed14a0dd6137d0c21f912c463af8d9
+Verified as latest main at the start of this port on 2026-09-26.
+Upstream module: src/main/java/myau/module/modules/Stasis.java
+
+The production Stasis source is copied without gameplay edits. Only the myau.*
+package/import namespace is relocated to dev.standalone.stasis.upstream.* to
+avoid collisions with other clients. The small event types are likewise copied.
+Unchanged source copies are included under src/test/java/myau for offline parity
+verification and are never bundled in the playable mod JAR.
+
+The original Module base class depends on the entire client. Its enabled-state
+and lifecycle behavior is provided by a minimal standalone adapter; enabled is
+volatile for cross-thread visibility. No other Myau modules are bundled.
+Forge startup bytecode hooks replace Myau's Mixin/event-bus plumbing at the same
+sites used by this Stasis module:
+
+- Local-player onUpdate HEAD and all RETURNs, with the original loaded-chunk gate.
+- MoveInput immediately after updatePlayerMoveState in local onLivingUpdate.
+- LivingUpdate immediately before AbstractClientPlayer.onLivingUpdate.
+- Strafe around every matching moveFlying call in moveEntityWithHeading,
+  dispatching only for EntityPlayerSP and preserving remote movement.
+- SEND PacketEvent at the one-argument NetworkManager.sendPacket entry only.
+
+The listener-bearing sendPacket overload does not dispatch PacketEvent upstream,
+so it is not filtered here. Incoming events are not installed because Stasis
+immediately returns for RECEIVE and has no incoming-packet effect. Unused
+UpdateEvent rotation metadata does not bring in Myau's rotation manager; Stasis
+does not read or write that metadata. Reflection dispatch retains upstream's
+event-exception isolation/stack-trace behavior.
+
+The standalone /stasis menu, version label, native Controls binding, and buffered
+input/render-frame OFF handling are integration UI, not upstream gameplay.
+Old speed/accumulator behavior and diagnostics are absent. No SUIM/AirStuck logic,
+new bypass, extra packets, timer override, correction suppression, or additional
+auto-disable rule has been added. The source's existing ground auto-disable,
+hurt-time packet exception, momentum restoration, and event-counter quirks remain.
+
+Source equivalence does not establish server acceptance, freedom from flags,
+or compatibility with every other installed transformer or client module.
+
+## Rise animations added in 2.1.0
+
+Source: https://github.com/NoHackClient/Rise-6.9.5
+Commit: 8227a0995839f9118cf98bfecf43dffcf0c43926
+File: src/main/java/com/alan/clients/module/impl/render/Animations.java
+Constants: src/main/java/com/alan/clients/util/value/ConstantManager.java
+Helper transforms: ItemRenderer in the user-supplied Rise 6.9.5 release JAR.
+
+Copyright Alan 2021. The repository states that reuse requires written
+permission. This local port was made after the user explicitly confirmed that
+they have permission. No broader reuse/distribution rights are asserted by this
+port, and the GPL notice for the Stasis component does not grant rights to Rise.
+Check the scope of that permission before redistributing a combined build.
+
+RisePoses retains the animation branches and constants, replacing direct GL
+calls with equivalent CPU pose operations for the requested smooth transitions.
+Pose includes vanilla/Rise first-person helper transforms; AnimationHooks includes
+the 1.7 Accurate model-correction transform. See README for the exact integration
+and timing changes. See below for the Spotify material added in 2.2.0.
+
+Meowtils timing was inspected from the user's installed Animations-1.1.3.meowtils
+(the separately named Downloads attachment was not present). Its block-hold
+timing and swing-duration behavior were implemented in a new local visual clock.
+No Meowtils binary classes are bundled in the playable JAR. A similarly named
+inert test fixture is included only in the test source, never in the mod JAR.
+
+## Rise Spotify display added in 2.2.0
+
+Same Rise repository/commit and user-confirmed permission as above.
+
+- `module/impl/other/Spotify.java`: renderer, animation and lyrics algorithms.
+- `module/impl/other/spotify/*`: lyric models and timing comparators.
+- `util/font/impl/rise/*`: original glyph rasterization and text drawing.
+- `util/shader/{impl,kernel}` and `util/render/RenderUtil.java`: shader adapter
+  formulas, uniforms, Gaussian kernels and textured quad coordinates.
+- `ui/theme/{Themes,ThemeManager}.java`: default Blend colors and interpolation.
+- Original assets: `product_sans_bold.ttf`, `product_sans_medium.ttf`,
+  `HarmonyOS_Sans_SC_Bold.ttf`, `LINESeedJP_TTF_Bd.ttf`, `LINESeedKR-Bd.ttf`,
+  `vertex.vsh`, `rq.frag`, `rgq.glsl`, `blur.frag`, `bloom.frag`.
+
+Font files retain their embedded copyright/name/license metadata. Their respective
+owners' terms apply separately; this project does not relicense the fonts under
+GPL or assert that the user's permission to use Rise covers font redistribution.
+This deliverable is a local integration; verify all relevant permissions before
+redistributing it. The user-supplied Rise release was read as an archive only,
+never executed for the port. No Rise executable classes or bundled third-party
+network libraries are included.
+
+The Forge menu/event/config adapters, Gson-based JSON adapter, PKCE connection,
+refresh/backoff logic, pause handling and preview are new integration code.
+The upstream credential parser/browser loop is not copied: the port requests
+read-only Spotify playback access via a loopback callback with state validation.

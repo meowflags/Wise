@@ -1,0 +1,17 @@
+config/
+configs/
+logs/
+backups/
+saves/
+screenshots/
+verification/
+test-runtime/
+private/
+.env
+.env.*
+*auth*.json
+*token*.json
+*.jsonl
+*.log
+*.dmp
+source-and-build.zip
