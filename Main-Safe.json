@@ -44,7 +44,7 @@
       }
     },
     "spotify": {
-      "enabled": false,
+      "enabled": true,
       "values": {
         "bind": 0,
         "service": "Spotify",
@@ -73,7 +73,7 @@
         "hudChestplate": true,
         "hudLeggings": true,
         "hudBoots": true,
-        "hudLayout": "Horizontal",
+        "hudLayout": "Vertical",
         "protection": true,
         "hidden": true
       }
@@ -82,14 +82,15 @@
       "enabled": true,
       "values": {
         "bind": 0,
+        "chat-cleaner.mode": "Essentials",
+        "chat-cleaner.shorten-warnings": true,
         "kills": true,
-        "beds": true,
         "lobby": true,
         "shop": true,
-        "game": true,
         "rewards": true,
-        "hidePadding": true,
         "hoverOriginal": true,
+        "chat-cleaner.hide-announcements": true,
+        "chat-cleaner.hide-cosmetics": true,
         "hidden": true,
         "chat-cleaner.meow-filter": false,
         "selectedFilter": "default"
@@ -100,7 +101,6 @@
       "values": {
         "bind": 0,
         "hypixelOnly": true,
-        "includeActionBar": false,
         "hidden": false
       }
     },
@@ -111,7 +111,7 @@
         "Wise.bind": 0,
         "Wise.notifier.distance": 35.0,
         "Wise.notifier.once": false,
-        "Wise.hidden": false,
+        "Wise.hidden": true,
         "Meowtils.bind": 0,
         "Meowtils.color.text-color": "#FFFFFF",
         "Meowtils.scale": 0.65,
@@ -121,14 +121,18 @@
         "Meowtils.hud": false,
         "Meowtils.hud.0.x": 1,
         "Meowtils.hud.0.y": 1,
-        "Meowtils.hidden": false
+        "Meowtils.hidden": true
       }
     },
     "hotbar": {
       "enabled": true,
       "values": {
         "bind": 0,
+        "hotbar.bar": true,
         "hotbar.xp": true,
+        "hotbar.scoreboard": true,
+        "scoreboard.scale": 0.9,
+        "scoreboard.footer": "",
         "hidden": true
       }
     },
@@ -171,6 +175,7 @@
         "jumpWidth": 4.1,
         "jumpStrength": 0.04,
         "chinaHat": true,
+        "visuals.hat.glue": true,
         "chinaOnlyThirdPerson": true,
         "chinaRainbow": false,
         "chinaHexInput": "#000000",
@@ -284,7 +289,7 @@
         "Meowtils.blacklist.whenWdrCommand": true,
         "Combined.bind": 0,
         "Combined.detector.combined.interval": 10.0,
-        "Combined.detector.combined.wise.speed": true,
+        "Combined.detector.combined.wise.speed": false,
         "Combined.detector.combined.wise.flight": false,
         "Combined.detector.combined.wise.block-a": true,
         "Combined.detector.combined.wise.block-b": true,
@@ -297,7 +302,7 @@
         "Combined.detector.combined.b4.Scaffold": true,
         "Combined.detector.combined.b4.AimAssist": true,
         "Combined.detector.combined.b4.AutoClicker": true,
-        "Combined.detector.combined.b4.Blink": true,
+        "Combined.detector.combined.b4.Blink": false,
         "Combined.detector.combined.b4.FastMine": true,
         "Combined.detector.combined.b4.NoFall": true,
         "Combined.detector.combined.b4.Protocol": true,
@@ -326,7 +331,7 @@
     "autism": {
       "enabled": true,
       "values": {
-        "hidden": true
+        "hidden": false
       }
     },
     "held-view": {
@@ -441,7 +446,6 @@
         "version": "Displace B4",
         "Displace B4.displace.indicator": true,
         "Displace B4.displace.auto-stick": true,
-        "Displace B4.displace.debug": false,
         "Displace Slinky.bind": 0,
         "Displace Slinky.hold-bind": false,
         "Displace Slinky.setting.direction": "Left",
@@ -600,7 +604,7 @@
         "Sprint Slinky.setting.while_backwards": false,
         "Sprint Slinky.setting.while_sideways": false,
         "Sprint Slinky.setting.while_in_gui": false,
-        "Sprint Slinky.hidden": true
+        "Sprint Slinky.hidden": false
       }
     },
     "b4.movement.stop-motion": {
@@ -621,8 +625,13 @@
       }
     },
     "b4.player.antiafk": {
-      "enabled": false,
-      "values": {}
+      "enabled": true,
+      "values": {
+        "antiafk.lobby": true,
+        "antiafk.warning": true,
+        "antiafk.generator": true,
+        "antiafk.idle": 15.0
+      }
     },
     "b4.player.antifireball": {
       "enabled": false,
@@ -668,7 +677,7 @@
         "AutoTool Slinky.setting.require_sneak": false,
         "AutoTool Slinky.setting.restrict_allowed_blocks": false,
         "AutoTool Slinky.setting.allowed_blocks": "[]",
-        "AutoTool Slinky.hidden": true
+        "AutoTool Slinky.hidden": false
       }
     },
     "b4.player.bedaura": {
@@ -688,7 +697,7 @@
         "FastMine Slinky.setting.speed": 1.2400000095367432,
         "FastMine Slinky.setting.break_delay": 2.0,
         "FastMine Slinky.setting.decr_block_hit_delay": false,
-        "FastMine Slinky.hidden": true
+        "FastMine Slinky.hidden": false
       }
     },
     "b4.player.fastplace": {
@@ -773,6 +782,7 @@
       "enabled": true,
       "values": {
         "version": "SafeWalk B4",
+        "SafeWalk B4.bridge-assist.avoid-double": true,
         "SafeWalk Slinky.bind": 0,
         "SafeWalk Slinky.hold-bind": false,
         "SafeWalk Slinky.setting.motion_multiplier": 1.0,
@@ -818,8 +828,8 @@
         "AntiBot Slinky.setting.always_stationary": true,
         "AntiBot Slinky.setting.sleeping": true,
         "AntiBot Slinky.setting.min_age": 0.0,
-        "AntiBot Slinky.hidden": false,
-        "Combined.hidden": true
+        "AntiBot Slinky.hidden": true,
+        "Combined.hidden": false
       }
     },
     "b4.world.weather": {
@@ -834,7 +844,7 @@
         "AntiDebuff Slinky.hold-bind": false,
         "AntiDebuff Slinky.setting.blindness": true,
         "AntiDebuff Slinky.setting.nausea": true,
-        "AntiDebuff Slinky.hidden": true
+        "AntiDebuff Slinky.hidden": false
       }
     },
     "b4.render.antishuffle": {
@@ -881,14 +891,14 @@
         "ChestESP Slinky.setting.render_chest": false,
         "ChestESP Slinky.setting.render_ender_chest": true,
         "ChestESP Slinky.setting.render_trapped_chest": false,
-        "ChestESP Slinky.setting.render_beacon": true,
+        "ChestESP Slinky.setting.render_beacon": false,
         "ChestESP Slinky.setting.line_width": 1.0,
         "ChestESP Slinky.setting.color_chest": "{\"r\":1.0,\"g\":1.0,\"b\":0.0}",
         "ChestESP Slinky.setting.color_ender_chest": "{\"r\":1.0,\"g\":0.0,\"b\":1.0}",
         "ChestESP Slinky.setting.color_trapped_chest": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
         "ChestESP Slinky.setting.color_beacon": "{\"r\":0.0,\"g\":1.0,\"b\":1.0}",
         "ChestESP Slinky.setting.filled": true,
-        "ChestESP Slinky.hidden": true
+        "ChestESP Slinky.hidden": false
       }
     },
     "b4.render.indicators": {
@@ -969,7 +979,7 @@
         "version": "NoHurtCam Slinky",
         "NoHurtCam Slinky.bind": 0,
         "NoHurtCam Slinky.hold-bind": false,
-        "NoHurtCam Slinky.hidden": true
+        "NoHurtCam Slinky.hidden": false
       }
     },
     "b4.render.playeresp": {
@@ -991,12 +1001,22 @@
         "PlayerESP Slinky.setting.filled": true,
         "PlayerESP Slinky.setting.show_2d_box": true,
         "PlayerESP Slinky.setting.show_health_bar": true,
-        "PlayerESP Slinky.hidden": true
+        "PlayerESP Slinky.hidden": false
       }
     },
     "b4.render.targethud": {
       "enabled": false,
-      "values": {}
+      "values": {
+        "version": "B4",
+        "Rise.bind": 0,
+        "Rise.target-hud.style": "Modern",
+        "Rise.target-hud.scale": 0.7,
+        "Rise.target-hud.background": "Tint",
+        "Rise.target-hud.particles": true,
+        "Rise.target-hud.follow": false,
+        "Rise.target-hud.scoreboard-health": true,
+        "Rise.hidden": false
+      }
     },
     "b4.render.trajectories": {
       "enabled": true,
@@ -1004,7 +1024,7 @@
         "version": "Trajectories B4",
         "Trajectories Slinky.bind": 0,
         "Trajectories Slinky.hold-bind": false,
-        "Trajectories Slinky.setting.line_width": 1.0,
+        "Trajectories Slinky.setting.line_width": 1.7000000476837158,
         "Trajectories Slinky.setting.color_hit": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
         "Trajectories Slinky.setting.color_miss": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
         "Trajectories Slinky.setting.render_throwables": true,
@@ -1264,23 +1284,23 @@
     "slinky.pointers": {
       "enabled": true,
       "values": {
-        "version": "Meowtils",
+        "version": "Pointers Slinky",
         "Pointers Slinky.bind": 0,
         "Pointers Slinky.hold-bind": false,
-        "Pointers Slinky.setting.range": 100.0,
+        "Pointers Slinky.setting.range": 29.507389068603516,
         "Pointers Slinky.setting.ignore_fov": 0.0,
-        "Pointers Slinky.setting.hide_friendlies": false,
+        "Pointers Slinky.setting.hide_friendlies": true,
         "Pointers Slinky.setting.style": "2D",
         "Pointers Slinky.setting.color_mode": "Distance",
-        "Pointers Slinky.setting.near_far_range": "{\"min\":5.0,\"max\":30.0}",
+        "Pointers Slinky.setting.near_far_range": "{\"min\":5.0,\"max\":30.04926109313965}",
         "Pointers Slinky.setting.color_near": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
         "Pointers Slinky.setting.color_far": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
-        "Pointers Slinky.setting.color_enemies": "{\"r\":1.0,\"g\":0.0,\"b\":0.0}",
-        "Pointers Slinky.setting.color_friendlies": "{\"r\":0.0,\"g\":1.0,\"b\":0.0}",
-        "Pointers Slinky.setting.scale": 1.0,
+        "Pointers Slinky.setting.color_enemies": "{\"r\":1.0,\"g\":0.0,\"b\":1.0}",
+        "Pointers Slinky.setting.color_friendlies": "{\"r\":1.0,\"g\":0.0,\"b\":1.0}",
+        "Pointers Slinky.setting.scale": 0.8977832794189453,
         "Pointers Slinky.setting.radius": 10.0,
         "Pointers Slinky.setting.scale_radius": false,
-        "Pointers Slinky.hidden": false,
+        "Pointers Slinky.hidden": true,
         "Meowtils.bind": 0,
         "Meowtils.colorMode": "Distance colors",
         "Meowtils.distanceRedAt": 6.0,
@@ -1301,7 +1321,7 @@
         "Meowtils.glowEffect": "Repeating pulse",
         "Meowtils.glowDistance": 15.0,
         "Pointers Slinky.marker-style": "Classic",
-        "Meowtils.hidden": false
+        "Meowtils.hidden": true
       }
     },
     "slinky.nohitdelay": {
@@ -1451,9 +1471,9 @@
       "values": {
         "bind": 0,
         "hold-bind": false,
-        "setting.clicks": false,
-        "setting.hurt_time": false,
-        "setting.item_use_state": false,
+        "setting.clicks": true,
+        "setting.hurt_time": true,
+        "setting.item_use_state": true,
         "hidden": false
       }
     },
@@ -1535,7 +1555,7 @@
         "bind": 0,
         "feedback": false,
         "autoRequeue": true,
-        "autoRequeueDelay": 1.0,
+        "autoRequeueDelay": 2.0,
         "requeueKey": 0,
         "hidden": true
       }
@@ -1560,7 +1580,7 @@
         "showHud": false,
         "scale": 0.65,
         "woolOverlay": true,
-        "woolColor": "Â§7Gray",
+        "woolColor": "§7Gray",
         "hud.0.x": 0,
         "hud.0.y": 0,
         "hidden": true
@@ -1621,12 +1641,12 @@
         "showOwn": true,
         "healthScale": 0.65,
         "meow.healthdisplay.bar": false,
-        "meow.healthdisplay.heart": true,
+        "meow.healthdisplay.heart": false,
         "showBow": false,
         "bowScale": 0.65,
         "hideSuffix": false,
-        "hud.0.x": 489,
-        "hud.0.y": 261,
+        "hud.0.x": 484,
+        "hud.0.y": 264,
         "hud.1.x": 460,
         "hud.1.y": 205,
         "hidden": true
@@ -1693,7 +1713,7 @@
         "gold": true,
         "diamonds": true,
         "emeralds": true,
-        "hidden": false
+        "hidden": true
       }
     },
     "tool-advisor": {
@@ -1703,6 +1723,43 @@
         "tool-advisor.upgrades": "Required only",
         "tool-advisor.tracking": "Closest teams",
         "tool-advisor.memory": 3.0,
+        "hidden": false
+      }
+    },
+    "fps-hud": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "fps-hud.scale": 1.0,
+        "fps-hud.dynamic-color": true,
+        "fps-hud.text": true,
+        "fps-hud.brackets": false,
+        "fps-hud.x": 7.0,
+        "fps-hud.y": 43.0,
+        "hidden": true
+      }
+    },
+    "bed-defender": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "bed-defender.layout": "12-Wool",
+        "bed-defender.preview": false,
+        "hidden": false
+      }
+    },
+    "vpn-guard": {
+      "enabled": true,
+      "values": {
+        "bind": 0,
+        "hidden": false
+      }
+    },
+    "debug": {
+      "enabled": false,
+      "values": {
+        "bind": 0,
+        "debug.chat": false,
         "hidden": false
       }
     }
@@ -1715,8 +1772,8 @@
     "stasis-v2.y": 304,
     "watermark.x": 6.0,
     "watermark.y": 6.0,
-    "armor.hud.x": 861.0,
-    "armor.hud.y": 444.0
+    "armor.hud.x": 908.0,
+    "armor.hud.y": 410.0
   },
   "b4Profile": {
     "keybind": 0,
@@ -2115,7 +2172,7 @@
         "name": "Stasis",
         "enabled": false,
         "hidden": false,
-        "keybind": 33,
+        "keybind": 0,
         "Pulse": 20.0
       },
       {
@@ -2184,8 +2241,8 @@
       },
       {
         "name": "AntiAFK",
-        "enabled": false,
-        "hidden": false,
+        "enabled": true,
+        "hidden": true,
         "keybind": 0,
         "AFK": 0.0,
         "Jump": true,
@@ -2507,7 +2564,7 @@
         "enabled": true,
         "hidden": true,
         "keybind": 0,
-        "Time": 24.0,
+        "Time": 8.7,
         "Lightning": 0.0,
         "Rain": false
       },
@@ -2565,7 +2622,7 @@
       {
         "name": "ChestESP",
         "enabled": false,
-        "hidden": false,
+        "hidden": true,
         "keybind": 0,
         "Red": 0.0,
         "Green": 200.0,
@@ -2696,10 +2753,10 @@
         "Show health": true,
         "Show hits to kill": false,
         "Show invis": true,
-        "Sneak suffix": true,
+        "Sneak suffix": false,
         "Remove tags": false,
         "Show items": true,
-        "Show enchants": false,
+        "Show enchants": true,
         "Show durability": false,
         "Show stack size": false
       },
@@ -2931,7 +2988,7 @@
         "Ignore teammates": true,
         "Send party chat": false,
         "Should ping": false,
-        "Closest enemy": 1.0,
+        "Closest enemy": 0.0,
         "Dragon": true,
         "Magic milk timer": true
       },
@@ -3184,14 +3241,14 @@
       {
         "name": "Debug AC",
         "enabled": false,
-        "hidden": false,
+        "hidden": true,
         "keybind": 0,
-        "Should ping": true,
+        "Should ping": false,
         "Backwards speed": true,
-        "Blink": true,
+        "Blink": false,
         "Dig targets": true,
         "Ground spoof": true,
-        "Incorrrect hit vec": false,
+        "Incorrrect hit vec": true,
         "Missing stop sprint": true
       },
       {

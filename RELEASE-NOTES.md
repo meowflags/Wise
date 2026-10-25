@@ -1,9 +1,9 @@
-## Wise 3.8.11
+## Wise 3.8.12
 
-- First-enable Spotify setup guide with Windows desktop instructions and the Linux/macOS limitation.
-- Reopen the guide from Connection Setup > Setup Instructions.
-- Includes the existing quiet VPN Guard checks, red three-second Proceed cooldown, and crystal trajectory fixes.
+- Fixed config save/load failures caused by a malformed legacy Height Overlay color value.
+- Fixed the valid B4 Target HUD version label being rejected by the config reader.
+- Updated the shared Main Safe (Semi-Blatant) preset to the latest saved settings, with personal name replacements and player lists removed.
 
-Install the JAR in a Forge 1.8.9 instance's mods folder. Default GUI key: Right Shift.
+Download the JAR for Forge 1.8.9 and put it in the instance's mods folder. Default GUI key: Right Shift. Put Main-Safe.json in config/wise/configs and load it through CaS > Your Configs.
 
-Compiled only; no new runtime gameplay tests were performed. Configs and authentication data are not included. Personal attribution in metadata was anonymized for this public release; gameplay code is unchanged. Verify the download against SHA256SUMS.txt.
+The actual requested Main Safe save and subsequent full-config parsing succeeded in the running client. No gameplay test world or combat test was run. Other gameplay module code is unchanged. The JAR retains the privacy cleaning applied to the first public release.
